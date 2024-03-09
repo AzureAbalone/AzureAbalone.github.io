@@ -72,7 +72,12 @@
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
 		];
-		var meme_sites = [
+		var meme_1_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var meme_2_sites = [
 			"http://www.google.com/",
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
@@ -177,10 +182,18 @@
 			);
 			return false;
 		}
-		function memelink() {
+		function memelink_1() {
 			window.open(
-				meme_sites[
-				Math.round(Math.random() * (meme_sites.length - 1))
+				meme_1_sites[
+				Math.round(Math.random() * (meme_1_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function memelink_2() {
+			window.open(
+				meme_2_sites[
+				Math.round(Math.random() * (meme_2_sites.length - 1))
 				]
 			);
 			return false;
@@ -362,8 +375,8 @@
 			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần 2</span></button>
 		</div>
 		<div class="container">
-			<button class="mm" type="button" onclick="memelink()"><span>Memelink lần 1</span></button>
-			<button class="mm" type="button" onclick="memelink()"><span>Memelink lần 2</span></button>
+			<button class="mm" type="button" onclick="memelink_1()"><span>Memelink lần 1</span></button>
+			<button class="mm" type="button" onclick="memelink_2()"><span>Memelink lần 2</span></button>
 		</div>
 	</div>
 </body>
