@@ -434,6 +434,38 @@
 			);
 			return false;
 		}
+		function normal_2() {
+			window.open(
+				normal_2_sites[
+				Math.round(Math.random() * (normal_2_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function memelink_1() {
+			window.open(
+				meme_1_sites[
+				Math.round(Math.random() * (meme_1_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function memelink_2() {
+			window.open(
+				meme_2_sites[
+				Math.round(Math.random() * (meme_2_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function teckurl() {
+			window.open(
+				teckurl_sites[
+				Math.round(Math.random() * (teckurl_sites.length - 1))
+				]
+			);
+			return false;
+		}
 	</script>
 	<style>
 		body {
@@ -498,6 +530,10 @@
 			content: "60 🌾"
 		}
 
+		button.tu:active:after {
+			content: "60 🌾"
+		}
+
 		button.tv:actie:after {
 			content: "130 🌾"
 		}
@@ -532,6 +568,10 @@
 
 		button.mm:hover:after {
 			content: "150 🌾"
+		}
+
+		button.tu:hover:after {
+			content: "60 🌾"
 		}
 
 		button.tu:hover:after {
@@ -592,6 +632,12 @@
 			background-color: #f60;
 			color: white;
 			border: 1px solid gray;
+		}
+
+		.tu {
+			border: 1px solid gray;
+			color: white;
+			background-color: purple;
 		}
 
 		.container {
