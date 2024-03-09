@@ -279,17 +279,8 @@
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
 		];
-		var trafficviet_sites = [
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/OvJm56i2wO",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/SciGHpZk56",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/fPr966Zz8U",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/kOjs4hjwzw",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/csxnQqJGAe",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/3UBprgDfzj",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/ipPsmDCrre",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/fAYCvU62zs",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/TAzq1Zz7mf",
-			"https://traffic-viet.com/redirect?api=45TgcLSPXKJyOQ1xhv7E55&url=https://xemnote.com/note/5fHKii7fJU",
+		var ggoklink_sites = [
+
 		];
 		var teckurl_sites = [
 			"https://teckurl.click/apiv3.php?token=1NSnALke0lNmjwIuYFqwZli7ydNocVxn&url=https://xemnote.com/note/84JNC9CmRA",
@@ -466,6 +457,14 @@
 			);
 			return false;
 		}
+		function ggoklink() {
+			window.open(
+				ggoklink_sites[
+				Math.round(Math.random() * (ggoklink_sites.length - 1))
+				]
+			);
+			return false;
+		}
 	</script>
 	<style>
 		body {
@@ -530,12 +529,8 @@
 			content: "60 🌾"
 		}
 
-		button.tu:active:after {
-			content: "60 🌾"
-		}
-
-		button.tv:actie:after {
-			content: "130 🌾"
+		button.gg:active:after {
+			content: "?? 🌾"
 		}
 
 		button:hover>span {
@@ -578,8 +573,8 @@
 			content: "60 🌾"
 		}
 
-		button.tv:hover:after {
-			content: "130 🌾"
+		button.gg:hover:after {
+			content: "?? 🌾"
 		}
 
 		.db {
@@ -634,10 +629,10 @@
 			border: 1px solid gray;
 		}
 
-		.tu {
+		.gg {
 			border: 1px solid gray;
 			color: white;
-			background-color: purple;
+			background-color: gray;
 		}
 
 		.container {
@@ -691,7 +686,7 @@
 		</div>
 		<div class="container">
 			<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
-			<button class="tv" type="button" onclick="trafficviet()"><span>Traffic-viet</span></button>
+			<button class="gg" type="button" onclick="ggoklink()" disabled><span>Ggoklink</span></button>
 		</div>
 	</div>
 </body>
