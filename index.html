@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
 	<meta charset="utf-8" />
@@ -78,6 +78,11 @@
 			"http://www.yahoo.com/",
 		];
 		var meme_2_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var teckurl_sites = [
 			"http://www.google.com/",
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
@@ -198,6 +203,14 @@
 			);
 			return false;
 		}
+		function tekurl() {
+			window.open(
+				tekurl_sites[
+				Math.round(Math.random() * (tekurl_sites.length - 1))
+				]
+			);
+			return false;
+		}
 	</script>
 	<style>
 		body {
@@ -257,6 +270,10 @@
 		button.mm:active:after {
 			content: "150 🌾"
 		}
+		
+		button.tu:active:after {
+			content: "60 🌾"
+		}
 
 		button:hover>span {
 			display: none;
@@ -288,6 +305,10 @@
 
 		button.mm:hover:after {
 			content: "150 🌾"
+		}
+
+		button.tu:hover:after {
+			content: "60 🌾"
 		}
 
 		.db {
@@ -327,6 +348,12 @@
 			border: 1px solid gray;
 			color: white;
 			background-color: rgb(237, 28, 36);
+		}
+
+		.tu {
+			border: 1px solid gray;
+			color: white;
+			background-color: purple;
 		}
 
 		.container {
@@ -377,6 +404,9 @@
 		<div class="container">
 			<button class="mm" type="button" onclick="memelink_1()"><span>Memelink lần 1</span></button>
 			<button class="mm" type="button" onclick="memelink_2()"><span>Memelink lần 2</span></button>
+		</div>
+		<div class="container">
+			<button class="tu" type="button" onclick="tekurl()"><span>Tekurl</span></button>
 		</div>
 	</div>
 </body>
