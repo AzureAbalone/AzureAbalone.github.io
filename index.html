@@ -55,7 +55,12 @@
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
 		];
-		var normal_sites = [
+		var normal_1_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var normal_2_sites = [
 			"http://www.google.com/",
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
@@ -149,10 +154,18 @@
 			);
 			return false;
 		}
-		function normal() {
+		function normal_1() {
 			window.open(
-				normal_sites[
-				Math.round(Math.random() * (normal_sites.length - 1))
+				normal_1_sites[
+				Math.round(Math.random() * (normal_1_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function normal_2() {
+			window.open(
+				normal_2_sites[
+				Math.round(Math.random() * (normal_2_sites.length - 1))
 				]
 			);
 			return false;
@@ -338,8 +351,8 @@
 			<button class="md" type="button" onclick="mneydrec()"><span>Mneydrec</span></button>
 		</div>
 		<div class="container">
-			<button class="nm" type="button" onclick="normal()"><span>Normal lần 1</span></button>
-			<button class="nm" type="button" onclick="normal()"><span>Normal lần 2</span></button>
+			<button class="nm" type="button" onclick="normal_1()"><span>Normal lần 1</span></button>
+			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần 2</span></button>
 		</div>
 		<div class="container">
 			<button class="mm" type="button" onclick="memelink()"><span>Memelink lần 1</span></button>
