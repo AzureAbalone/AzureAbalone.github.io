@@ -60,6 +60,11 @@
 			"http://www.msn.com/",
 			"http://www.yahoo.com/",
 		];
+		var meme_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
 		function directblitly_1() {
 			window.open(
 				direct_blitly_1_sites[
@@ -148,6 +153,14 @@
 			window.open(
 				normal_sites[
 				Math.round(Math.random() * (normal_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function memelink() {
+			window.open(
+				meme_sites[
+				Math.round(Math.random() * (meme_sites.length - 1))
 				]
 			);
 			return false;
