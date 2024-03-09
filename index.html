@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Redirect nhiệm vụ</title>
+	<script>
+		var direct_blitly_1_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var direct_blitly_2_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var blitly_1_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var blitly_2_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var web1s_1_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var web1s_2_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var web1s_3_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var web1s_4_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var mneylink_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var mneydrec_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		var normal_sites = [
+			"http://www.google.com/",
+			"http://www.msn.com/",
+			"http://www.yahoo.com/",
+		];
+		function directblitly_1() {
+			window.open(
+				direct_blitly_1_sites[
+				Math.round(
+					Math.random() * (direct_blitly_1_sites.length - 1)
+				)
+				]
+			);
+			return false;
+		}
+		function directblitly_2() {
+			window.open(
+				direct_blitly_2_sites[
+				Math.round(
+					Math.random() * (direct_blitly_2_sites.length - 1)
+				)
+				]
+			);
+			return false;
+		}
+		function blitly_1() {
+			window.open(
+				blitly_1_sites[
+				Math.round(Math.random() * (blitly_1_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function blitly_2() {
+			window.open(
+				blitly_2_sites[
+				Math.round(Math.random() * (blitly_2_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function web1s_1() {
+			window.open(
+				web1s_1_sites[
+				Math.round(Math.random() * (web1s_1_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function web1s_2() {
+			window.open(
+				web1s_2_sites[
+				Math.round(Math.random() * (web1s_2_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function web1s_3() {
+			window.open(
+				web1s_3_sites[
+				Math.round(Math.random() * (web1s_3_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function web1s_4() {
+			window.open(
+				web1s_4_sites[
+				Math.round(Math.random() * (web1s_4_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function mneylink() {
+			window.open(
+				mneylink_sites[
+				Math.round(Math.random() * (mneylink_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function mneydrec() {
+			window.open(
+				mneydrec_sites[
+				Math.round(Math.random() * (mneydrec_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function normal() {
+			window.open(
+				normal_sites[
+				Math.round(Math.random() * (normal_sites.length - 1))
+				]
+			);
+			return false;
+		}
+	</script>
+	<style>
+		body {
+			background-color: rgba(0, 0, 0, 0.75);
+		}
+
+		div {
+			display: inline-grid;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+
+		button {
+			margin-bottom: 20px;
+			margin-right: 20px;
+			width: 300px;
+			height: 100px;
+			border-radius: 50px;
+			font-size: 25px;
+			font-weight: bold;
+			cursor: pointer;
+			font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+				serif;
+		}
+
+		button:active>span {
+			display: none;
+		}
+
+		button.db:active:after {
+			content: "150 🌾"
+		}
+
+		button.bl:active:after {
+			content: "200 🌾"
+		}
+
+		button.w1s:active:after {
+			content: "130 🌾"
+		}
+
+		button.ml:active:after {
+			content: "250 🌾"
+		}
+
+		button.md:active:after {
+			content: "200 🌾"
+		}
+
+		button.nm:active:after {
+			content: "30 🌾"
+		}
+
+		button.mm:active:after {
+			content: "150 🌾"
+		}
+
+		button:hover>span {
+			display: none;
+		}
+
+		button.db:hover:after {
+			content: "150 🌾"
+		}
+
+		button.bl:hover:after {
+			content: "200 🌾"
+		}
+
+		button.w1s:hover:after {
+			content: "130 🌾"
+		}
+
+		button.ml:hover:after {
+			content: "250 🌾"
+		}
+
+		button.md:hover:after {
+			content: "200 🌾"
+		}
+
+		button.nm:hover:after {
+			content: "30 🌾"
+		}
+
+		button.mm:hover:after {
+			content: "150 🌾"
+		}
+
+		.db {
+			background-image: linear-gradient(89deg,
+					#25aae1 20%,
+					#3498db 100%);
+			color: white;
+			border: 1px solid gray;
+		}
+
+		.bl {
+			background-color: #f5510b;
+			color: white;
+			border: 1px solid gray;
+		}
+
+		.w1s,
+		.nm {
+			background-color: rgb(237, 28, 36);
+			color: white;
+			border: 1px solid gray;
+		}
+
+		.ml {
+			border: 1px solid gray;
+			color: white;
+			background-color: rgb(196, 11, 17);
+		}
+
+		.md {
+			border: 1px solid gray;
+			color: white;
+			background-color: green;
+		}
+
+		.mm {
+			border: 1px solid gray;
+			color: white;
+			background-color: rgb(237, 28, 36);
+		}
+
+		.container {
+			display: flex;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<div class='container'>
+			<button type="button" onclick="directblitly_1()" class="db">
+				<span>Direct-blitly lần 1</span>
+				<button type="button" onclick="directblitly_2()" class="db">
+					<span>Direct-blitly lần 2</span>
+				</button>
+		</div>
+		<div class="container">
+			<button type="button" onclick="blitly_1()" class="bl">
+				<span>Blitly lần 1</span>
+			</button>
+			<button type="button" onclick="blitly_2()" class="bl">
+				<span>Blitly lần 2</span>
+			</button>
+		</div>
+		<div class="container">
+			<button type="button" onclick="web1s_1()" class="w1s">
+				<span>Web1s lần 1</span>
+			</button>
+			<button type="button" onclick="web1s_2()" class="w1s">
+				<span>Web1s lần 2</span>
+			</button>
+			<button type="button" onclick="web1s_3()" class="w1s">
+				<span>Web1s lần 3</span>
+			</button>
+			<button type="button" onclick="web1s_4()" class="w1s">
+				<span>Web1s lần 4</span>
+			</button>
+		</div>
+		<div class="container">
+			<button class="ml" type="button" onclick="mneylink()"><span>Mneylink</span></button>
+			<button class="md" type="button" onclick="mneydrec()"><span>Mneydrec</span></button>
+		</div>
+		<div class="container">
+			<button class="nm" type="button" onclick="normal()"><span>Normal lần 1</span></button>
+			<button class="nm" type="button" onclick="normal()"><span>Normal lần 2</span></button>
+		</div>
+		<div class="container">
+			<button class="mm" type="button" onclick="memelink()"><span>Memelink lần 1</span></button>
+			<button class="mm" type="button" onclick="memelink()"><span>Memelink lần 2</span></button>
+		</div>
+	</div>
+</body>
+
+</html>
