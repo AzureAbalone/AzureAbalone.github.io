@@ -5,6 +5,64 @@
 	<meta charset="utf-8" />
 	<title>Redirect nhiệm vụ</title>
 	<script>
+		window.addEventListener("load", function () {
+			var currentTime = new Date();
+			var hours = currentTime.getHours();
+			var db1 = document.getElementById("db1");
+			var db2 = document.getElementById("db2");
+			var mm1 = document.getElementById("mm1");
+			var mm2 = document.getElementById("mm2");
+			var bl1 = document.getElementById("bl1");
+			var bl2 = document.getElementById("bl2");
+			var w1s1 = document.getElementById("w1s1");
+			var w1s2 = document.getElementById("w1s2");
+			var w1s3 = document.getElementById("w1s3");
+			var w1s4 = document.getElementById("w1s4");
+			var ml = document.getElementById("ml");
+			var md = document.getElementById("md");
+			if (hours > 0 && hours < 21) {
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)';
+				w1s2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+				if (hours > 0 && hours < 19) {
+					db1.disabled = false;
+					db1.style.backgroundColor = '#25aae1';
+					db1.style.cursor = 'pointer';
+					mm1.disabled = false;
+					mm1.style.cursor = 'pointer';
+					mm1.style.backgroundColor = 'rgb(237, 28, 36)';
+					bl1.disabled = false;
+					bl1.style.backgroundColor = '#f5510b';
+					bl1.style.cursor = 'pointer';
+					ml.disabled = false;
+					ml.style.backgroundColor = 'rgb(196, 11, 17)';
+					ml.style.cursor = 'pointer';
+					db2.disabled = false;
+					db2.style.backgroundColor = '#25aae1';
+					db2.style.cursor = 'pointer';
+					mm2.disabled = false;
+					mm2.style.cursor = 'pointer';
+					mm2.style.backgroundColor = 'rgb(237, 28, 36)';
+					bl2.disabled = false;
+					bl2.style.backgroundColor = '#f5510b';
+					bl2.style.cursor = 'pointer';
+					md.disabled = false;
+					md.style.backgroundColor = 'green';
+					md.style.cursor = 'pointer';
+				}
+				else { }
+			}
+			else { }
+		}, false);
 		var direct_blitly_1_sites = [
 			"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/hOKir4Y4w7",
 			"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/vo0R3OElHd",
@@ -531,46 +589,6 @@
 			);
 			return false;
 		}
-		function trafficviet() {
-			window.open(
-				trafficviet_sites[
-				Math.round(Math.random() * (trafficviet_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function normal_2() {
-			window.open(
-				normal_2_sites[
-				Math.round(Math.random() * (normal_2_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function memelink_1() {
-			window.open(
-				meme_1_sites[
-				Math.round(Math.random() * (meme_1_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function memelink_2() {
-			window.open(
-				meme_2_sites[
-				Math.round(Math.random() * (meme_2_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function teckurl() {
-			window.open(
-				teckurl_sites[
-				Math.round(Math.random() * (teckurl_sites.length - 1))
-				]
-			);
-			return false;
-		}
 		function ggoklink() {
 			window.open(
 				ggoklink_sites[
@@ -602,7 +620,8 @@
 			border-radius: 50px;
 			font-size: 25px;
 			font-weight: bold;
-			cursor: pointer;
+			cursor: default;
+			background-color: gray;
 			font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
 				serif;
 		}
@@ -689,54 +708,49 @@
 		}
 
 		.db {
-			background-image: linear-gradient(89deg,
-					#25aae1 20%,
-					#3498db 100%);
 			color: white;
 			border: 1px solid gray;
 		}
 
 		.bl {
-			background-color: #f5510b;
 			color: white;
 			border: 1px solid gray;
 		}
 
 		.w1s,
 		.nm {
-			background-color: rgb(237, 28, 36);
 			color: white;
 			border: 1px solid gray;
+		}
+
+		.nm {
+			background-color: rgb(237, 28, 36);
+		}
+
+		.nm,
+		.tu {
+			cursor: pointer;
 		}
 
 		.ml {
 			border: 1px solid gray;
 			color: white;
-			background-color: rgb(196, 11, 17);
 		}
 
 		.md {
 			border: 1px solid gray;
 			color: white;
-			background-color: green;
 		}
 
 		.mm {
 			border: 1px solid gray;
 			color: white;
-			background-color: rgb(237, 28, 36);
 		}
 
 		.tu {
 			border: 1px solid gray;
 			color: white;
 			background-color: purple;
-		}
-
-		.tv {
-			background-color: #f60;
-			color: white;
-			border: 1px solid gray;
 		}
 
 		.gg {
@@ -754,45 +768,47 @@
 <body>
 	<div>
 		<div class='container'>
-			<button type="button" onclick="directblitly_1()" class="db">
+			<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
 				<span>Direct-blitly lần 1</span>
-				<button type="button" onclick="directblitly_2()" class="db">
+				<button type="button" onclick="directblitly_2()" class="db" id='db2' disabled>
 					<span>Direct-blitly lần 2</span>
 				</button>
 		</div>
 		<div class="container">
-			<button type="button" onclick="blitly_1()" class="bl">
+			<button type="button" onclick="blitly_1()" class="bl" id='bl1' disabled>
 				<span>Blitly lần 1</span>
 			</button>
-			<button type="button" onclick="blitly_2()" class="bl">
+			<button type="button" onclick="blitly_2()" class="bl" id='bl2' disabled>
 				<span>Blitly lần 2</span>
 			</button>
 		</div>
 		<div class="container">
-			<button type="button" onclick="web1s_1()" class="w1s">
+			<button type="button" onclick="web1s_1()" class="w1s" id='w1s1' disabled>
 				<span>Web1s lần 1</span>
 			</button>
-			<button type="button" onclick="web1s_2()" class="w1s">
+			<button type="button" onclick="web1s_2()" class="w1s" id='w1s2' disabled>
 				<span>Web1s lần 2</span>
 			</button>
-			<button type="button" onclick="web1s_3()" class="w1s">
+			<button type="button" onclick="web1s_3()" class="w1s" id='w1s3' disabled>
 				<span>Web1s lần 3</span>
 			</button>
-			<button type="button" onclick="web1s_4()" class="w1s">
+			<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
 				<span>Web1s lần 4</span>
 			</button>
 		</div>
 		<div class="container">
-			<button class="ml" type="button" onclick="mneylink()"><span>Mneylink</span></button>
-			<button class="md" type="button" onclick="mneydrec()"><span>Mneydrec</span></button>
+			<button class="ml" type="button" onclick="mneylink()" id='ml' disabled><span>Mneylink</span></button>
+			<button class="md" type="button" onclick="mneydrec()" id='md' disabled><span>Mneydrec</span></button>
 		</div>
 		<div class="container">
 			<button class="nm" type="button" onclick="normal_1()"><span>Normal lần 1</span></button>
 			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần 2</span></button>
 		</div>
 		<div class="container">
-			<button class="mm" type="button" onclick="memelink_1()"><span>Memelink lần 1</span></button>
-			<button class="mm" type="button" onclick="memelink_2()"><span>Memelink lần 2</span></button>
+			<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled><span>Memelink lần
+					1</span></button>
+			<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled><span>Memelink lần
+					2</span></button>
 		</div>
 		<div class="container">
 			<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
