@@ -5,6 +5,123 @@
 	<meta charset="utf-8" />
 	<title>Redirect nhiệm vụ</title>
 	<script>
+		window.addEventListener("load", function () {
+			var currentTime = new Date();
+			var hours = currentTime.getHours();
+			var db1 = document.getElementById("db1");
+			var db2 = document.getElementById("db2");
+			var mm1 = document.getElementById("mm1");
+			var mm2 = document.getElementById("mm2");
+			var bl1 = document.getElementById("bl1");
+			var bl2 = document.getElementById("bl2");
+			var w1s1 = document.getElementById("w1s1");
+			var w1s2 = document.getElementById("w1s2");
+			var w1s3 = document.getElementById("w1s3");
+			var w1s4 = document.getElementById("w1s4");
+			var ml = document.getElementById("ml");
+			var md = document.getElementById("md");
+
+
+			if (hours > 0 && hours < 4) {
+				db1.disabled = false;
+				db1.style.backgroundColor = '#25aae1';
+				db1.style.cursor = 'pointer';
+				mm1.disabled = false;
+				mm1.style.cursor = 'pointer';
+				mm1.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl1.disabled = false;
+				bl1.style.backgroundColor = '#f5510b';
+				bl1.style.cursor = 'pointer';
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s2.style.cursor = 'pointer';
+				ml.disabled = false;
+				ml.style.backgroundColor = 'rgb(196, 11, 17)';
+				ml.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 7 && hours < 11) {
+				db1.disabled = false;
+				db1.style.backgroundColor = '#25aae1';
+				db1.style.cursor = 'pointer';
+				mm1.disabled = false;
+				mm1.style.cursor = 'pointer';
+				mm1.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl1.disabled = false;
+				bl1.style.backgroundColor = '#f5510b';
+				bl1.style.cursor = 'pointer';
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s2.style.cursor = 'pointer';
+				ml.disabled = false;
+				ml.style.backgroundColor = 'rgb(196, 11, 17)';
+				ml.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 13 && hours < 15) {
+				db2.disabled = false;
+				db2.style.backgroundColor = '#25aae1';
+				db2.style.cursor = 'pointer';
+				mm2.disabled = false;
+				mm2.style.cursor = 'pointer';
+				mm2.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl2.disabled = false;
+				bl2.style.backgroundColor = '#f5510b';
+				bl2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+				md.disabled = false;
+				md.style.backgroundColor = 'green';
+				md.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 17 && hours < 19) {
+				db2.disabled = false;
+				db2.style.backgroundColor = '#25aae1';
+				db2.style.cursor = 'pointer';
+				mm2.disabled = false;
+				mm2.style.cursor = 'pointer';
+				mm2.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl2.disabled = false;
+				bl2.style.backgroundColor = '#f5510b';
+				bl2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+				md.disabled = false;
+				md.style.backgroundColor = 'green';
+				md.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 19 && hours < 21) {
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+			}
+			else { }
+		}, false);
 		var direct_blitly_1_sites = [
 			"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/hOKir4Y4w7",
 			"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/vo0R3OElHd",
@@ -330,14 +447,77 @@
 			"https://rac1s.com/3ljyHFFB4o",
 		];
 		var meme_1_sites = [
-			"http://www.google.com/",
-			"http://www.msn.com/",
-			"http://www.yahoo.com/",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/ZtWdJ47efs",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/Va05DzynZt",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/A0txzPxSN4",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/nUXCNHBX8g",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/nUXCNHBX8g",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/cQeai380nK",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/0FfYP0h1eE",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/TceUzzTWXc",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/sd4wFySSYl",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/ORsGdZxtyn",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/PvASXPfCcX",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/l0n4Ncu6Fv",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/sSqYn6rCi3",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/Kh36uC4Bj2",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/Xa9F2mvTbW",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/ufs5UOHxtj",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/FPkoXeIecK",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/DiCiUQVln2",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/JV9YWB6zzm",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/vMKjyoY1Dl",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/e8nyBryJxA",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/TGwGPtLujz",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/l0n4Ncu6Fv",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/Ay86OyNQVn",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/1zSnslJ1uN",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/mGoKEr8KYI",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/7uTCfSAQR1",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/MKAvHA297S",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/HllD9wb2sN",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/lY7IdxoiEZ",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/PMPbecQzE6",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/oxCM3ob2bq",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/WLIXQIelDc",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/2IuH9wEoNh",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/H3qnOkB9oF",
 		];
 		var meme_2_sites = [
-			"http://www.google.com/",
-			"http://www.msn.com/",
-			"http://www.yahoo.com/",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/e3QkxDiY1k",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/5f1gMbuMxr",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/R08YuSTXow",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/YwKEW7OI9B",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/dNmnjAs8xj",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/IRr3tijRN0",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/VjoxXcQE95",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/bnB5W7EAG0",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/XtfDpIBaOk",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/iciamo5ekl",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/yDhyJfJDOw",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/AcMYnYC5G7",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/xljetPaNcs",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/BvU3uZYOWd",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/A6WkBHlDUp",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/bOK5Do4k60",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/ucCXaHJo6Y",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/SpMuWLwdeO",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/7dgPHOk2P4",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/46NDd2gXZx",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/sp0aejRd1p",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/pluCm9q1li",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/zooXqoW118",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/LqIUiEm0nK",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/tmTAkvEBRa",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/dOi2GbWrl5",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/6pIhFBQvED",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/YcgLsA6bXU",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/S4Dm1ntWEZ",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/KkZsXQk52V",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/ZSfHYcy3XD",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/5oA3ThQJnc",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/WVUzeok0DE",
+			"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/TSncTzuMll",
 		];
 		var ggoklink_sites = [
 
@@ -468,46 +648,6 @@
 			);
 			return false;
 		}
-		function trafficviet() {
-			window.open(
-				trafficviet_sites[
-				Math.round(Math.random() * (trafficviet_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function normal_2() {
-			window.open(
-				normal_2_sites[
-				Math.round(Math.random() * (normal_2_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function memelink_1() {
-			window.open(
-				meme_1_sites[
-				Math.round(Math.random() * (meme_1_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function memelink_2() {
-			window.open(
-				meme_2_sites[
-				Math.round(Math.random() * (meme_2_sites.length - 1))
-				]
-			);
-			return false;
-		}
-		function teckurl() {
-			window.open(
-				teckurl_sites[
-				Math.round(Math.random() * (teckurl_sites.length - 1))
-				]
-			);
-			return false;
-		}
 		function ggoklink() {
 			window.open(
 				ggoklink_sites[
@@ -539,9 +679,10 @@
 			border-radius: 50px;
 			font-size: 25px;
 			font-weight: bold;
-			cursor: pointer;
+			cursor: default;
 			font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
 				serif;
+			background-color: gray;
 		}
 
 		button:active>span {
@@ -626,43 +767,43 @@
 		}
 
 		.db {
-			background-image: linear-gradient(89deg,
-					#25aae1 20%,
-					#3498db 100%);
 			color: white;
 			border: 1px solid gray;
 		}
 
 		.bl {
-			background-color: #f5510b;
 			color: white;
 			border: 1px solid gray;
 		}
 
 		.w1s,
 		.nm {
-			background-color: rgb(237, 28, 36);
 			color: white;
 			border: 1px solid gray;
+		}
+
+		.nm {
+			background-color: rgb(237, 28, 36);
+		}
+
+		.nm,
+		.tu {
+			cursor: pointer;
 		}
 
 		.ml {
 			border: 1px solid gray;
 			color: white;
-			background-color: rgb(196, 11, 17);
 		}
 
 		.md {
 			border: 1px solid gray;
 			color: white;
-			background-color: green;
 		}
 
 		.mm {
 			border: 1px solid gray;
 			color: white;
-			/* background-color: rgb(237, 28, 36); */
-			background-color: gray;
 		}
 
 		.tu {
@@ -692,45 +833,47 @@
 <body>
 	<div>
 		<div class='container'>
-			<button type="button" onclick="directblitly_1()" class="db">
+			<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
 				<span>Direct-blitly lần 1</span>
-				<button type="button" onclick="directblitly_2()" class="db">
+				<button type="button" onclick="directblitly_2()" class="db" id='db2' disabled>
 					<span>Direct-blitly lần 2</span>
 				</button>
 		</div>
 		<div class="container">
-			<button type="button" onclick="blitly_1()" class="bl">
+			<button type="button" onclick="blitly_1()" class="bl" id='bl1' disabled>
 				<span>Blitly lần 1</span>
 			</button>
-			<button type="button" onclick="blitly_2()" class="bl">
+			<button type="button" onclick="blitly_2()" class="bl" id='bl2' disabled>
 				<span>Blitly lần 2</span>
 			</button>
 		</div>
 		<div class="container">
-			<button type="button" onclick="web1s_1()" class="w1s">
+			<button type="button" onclick="web1s_1()" class="w1s" id='w1s1' disabled>
 				<span>Web1s lần 1</span>
 			</button>
-			<button type="button" onclick="web1s_2()" class="w1s">
+			<button type="button" onclick="web1s_2()" class="w1s" id='w1s2' disabled>
 				<span>Web1s lần 2</span>
 			</button>
-			<button type="button" onclick="web1s_3()" class="w1s">
+			<button type="button" onclick="web1s_3()" class="w1s" id='w1s3' disabled>
 				<span>Web1s lần 3</span>
 			</button>
-			<button type="button" onclick="web1s_4()" class="w1s">
+			<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
 				<span>Web1s lần 4</span>
 			</button>
 		</div>
 		<div class="container">
-			<button class="ml" type="button" onclick="mneylink()"><span>Mneylink</span></button>
-			<button class="md" type="button" onclick="mneydrec()"><span>Mneydrec</span></button>
+			<button class="ml" type="button" onclick="mneylink()" id='ml' disabled><span>Mneylink</span></button>
+			<button class="md" type="button" onclick="mneydrec()" id='md' disabled><span>Mneydrec</span></button>
 		</div>
 		<div class="container">
 			<button class="nm" type="button" onclick="normal_1()"><span>Normal lần 1</span></button>
 			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần 2</span></button>
 		</div>
 		<div class="container">
-			<button class="mm" type="button" onclick="memelink_1()" disabled><span>Memelink lần 1</span></button>
-			<button class="mm" type="button" onclick="memelink_2()" disabled><span>Memelink lần 2</span></button>
+			<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled><span>Memelink lần
+					1</span></button>
+			<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled><span>Memelink lần
+					2</span></button>
 		</div>
 		<div class="container">
 			<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
