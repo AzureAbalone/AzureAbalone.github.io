@@ -122,6 +122,123 @@
 			}
 			else { }
 		}, false);
+		mobile.addEventListener("load", function () {
+			var currentTime = new Date();
+			var hours = currentTime.getHours();
+			var db1 = document.getElementById("db1");
+			var db2 = document.getElementById("db2");
+			var mm1 = document.getElementById("mm1");
+			var mm2 = document.getElementById("mm2");
+			var bl1 = document.getElementById("bl1");
+			var bl2 = document.getElementById("bl2");
+			var w1s1 = document.getElementById("w1s1");
+			var w1s2 = document.getElementById("w1s2");
+			var w1s3 = document.getElementById("w1s3");
+			var w1s4 = document.getElementById("w1s4");
+			var ml = document.getElementById("ml");
+			var md = document.getElementById("md");
+
+
+			if (hours > 0 && hours < 4) {
+				db1.disabled = false;
+				db1.style.backgroundColor = '#25aae1';
+				db1.style.cursor = 'pointer';
+				mm1.disabled = false;
+				mm1.style.cursor = 'pointer';
+				mm1.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl1.disabled = false;
+				bl1.style.backgroundColor = '#f5510b';
+				bl1.style.cursor = 'pointer';
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s2.style.cursor = 'pointer';
+				ml.disabled = false;
+				ml.style.backgroundColor = 'rgb(196, 11, 17)';
+				ml.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 7 && hours < 11) {
+				db1.disabled = false;
+				db1.style.backgroundColor = '#25aae1';
+				db1.style.cursor = 'pointer';
+				mm1.disabled = false;
+				mm1.style.cursor = 'pointer';
+				mm1.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl1.disabled = false;
+				bl1.style.backgroundColor = '#f5510b';
+				bl1.style.cursor = 'pointer';
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s2.style.cursor = 'pointer';
+				ml.disabled = false;
+				ml.style.backgroundColor = 'rgb(196, 11, 17)';
+				ml.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 13 && hours < 15) {
+				db2.disabled = false;
+				db2.style.backgroundColor = '#25aae1';
+				db2.style.cursor = 'pointer';
+				mm2.disabled = false;
+				mm2.style.cursor = 'pointer';
+				mm2.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl2.disabled = false;
+				bl2.style.backgroundColor = '#f5510b';
+				bl2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+				md.disabled = false;
+				md.style.backgroundColor = 'green';
+				md.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 17 && hours < 19) {
+				db2.disabled = false;
+				db2.style.backgroundColor = '#25aae1';
+				db2.style.cursor = 'pointer';
+				mm2.disabled = false;
+				mm2.style.cursor = 'pointer';
+				mm2.style.backgroundColor = 'rgb(237, 28, 36)';
+				bl2.disabled = false;
+				bl2.style.backgroundColor = '#f5510b';
+				bl2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+				md.disabled = false;
+				md.style.backgroundColor = 'green';
+				md.style.cursor = 'pointer';
+			}
+			else { }
+			if (hours > 19 && hours < 21) {
+				w1s1.disabled = false;
+				w1s1.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s1.style.cursor = 'pointer';
+				w1s2.disabled = false;
+				w1s2.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s2.style.cursor = 'pointer';
+				w1s3.disabled = false;
+				w1s3.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s3.style.cursor = 'pointer';
+				w1s4.disabled = false;
+				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
+				w1s4.style.cursor = 'pointer';
+			}
+			else { }
+		}, false);
 		var direct_blitly_1_sites = [
 			"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/hOKir4Y4w7",
 			"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/vo0R3OElHd",
