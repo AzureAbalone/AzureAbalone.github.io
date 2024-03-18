@@ -20,7 +20,7 @@
 			var w1s4 = document.getElementById("w1s4");
 			var ml = document.getElementById("ml");
 			var md = document.getElementById("md");
-			if (hours >= 0 && hours <= 21) {
+			if (hours > 0 && hours < 21) {
 				w1s1.disabled = false;
 				w1s1.style.backgroundColor = 'rgb(237, 28, 36)';
 				w1s1.style.cursor = 'pointer';
@@ -33,7 +33,7 @@
 				w1s4.disabled = false;
 				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
 				w1s4.style.cursor = 'pointer';
-				if (hours >= 0 && hours <= 19) {
+				if (hours > 0 && hours < 19) {
 					db1.disabled = false;
 					db1.style.backgroundColor = '#25aae1';
 					db1.style.cursor = 'pointer';
@@ -921,31 +921,14 @@
 			return false;
 		}
 		function ggoklink() {
-			const createCORSRequest = (method, url) => {
-				let xhr = new XMLHttpRequest();
-				if ('withCredentials' in xhr) {
-					// Kiểm tra XMLHttpRequest object có thuộc tính
-					// withCredentials hay không
-					// Thuộc tính này chỉ có ở XMLHttpRequest2
-					xhr.open(method, url, true);
-				} else if (typeof XDomainRequest != 'undefined') {
-					// Kiểm tra XDomainRequest
-					// Đây là đối tượng chỉ có ở IE và
-					// là cách để IE thực hiện truy vấn CORS
-					xhr = new XDomainRequest();
-					xhr.open(method, url);
-				} else {
-					xhr = null;
-				}
-				return xhr;
-			}
-
+			let headers = new Headers()
+			headers.append('Access-Control-Allow-Credentials', 'true');
+			headers.append('Access-Control-Allow-Origin', 'https://azureabalone.github.io/');
+			headers.append('Access-Control-Allow-Headers', 'FooBar');
 			const ggnote = new Request('https://web1s.com/note-api?token=fbaae39a-1773-4c8b-beeb-fa5ed858ae9a&content=some-note-here');
-			const request = createCORSRequest('GET', ggnote);
-			if (!request) {
-				throw new Error('CORS is not supported');
-			}
-			request.send()
+			fetch(ggnote, { mode: 'cors', headers: headers, method: 'GET' })
+				.then(response => response)
+				.then(data => console.log(data))
 		}
 	</script>
 	<style>
