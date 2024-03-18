@@ -1092,11 +1092,34 @@
 		.container {
 			display: flex;
 		}
+
+		.noti {
+			width: 100%;
+			background: linear-gradient(to right, rgba(117, 123, 200, 1) 10%, rgba(129, 135, 220, 1) 20%, rgba(142, 148, 242, 1) 30%, rgba(159, 160, 255, 1) 40%, rgba(173, 167, 255, 1) 50%, rgba(187, 173, 255, 1) 60%, rgba(203, 178, 254, 1) 70%, rgba(218, 182, 252, 1) 80%, rgba(221, 189, 252, 1) 90%, rgba(224, 195, 252, 1) 100%);
+			cursor: pointer;
+			transition: 0.5s;
+		}
+
+		.notih {
+			flex: 1 1 auto;
+			margin: 10px;
+			padding: 30px;
+			text-transform: uppercase;
+			transition: 0.5s;
+			background-size: 200% auto;
+			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+			box-shadow: 0 0 20px #eee;
+		}
+
+		.notih:hover {
+			background-position: right center;
+		}
 	</style>
 </head>
 
 <body>
 	<div>
+		<div class="container"><button class='noti notih'>Đọc thông báo nhiệm vụ ở đây!</button></div>
 		<div class='container'>
 			<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
 				<span>Direct-blitly lần 1</span>
