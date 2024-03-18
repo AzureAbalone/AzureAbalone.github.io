@@ -924,7 +924,7 @@
 			let headers = new Headers()
 			headers.append('Access-Control-Allow-Credentials', 'true');
 			headers.append('Access-Control-Allow-Origin', 'https://azureabalone.github.io/');
-			headers.append('Access-Control-Allow-Headers', 'FooBar');
+			headers.append('Access-Control-Allow-Headers', '*');
 			const ggnote = new Request('https://web1s.com/note-api?token=fbaae39a-1773-4c8b-beeb-fa5ed858ae9a&content=some-note-here');
 			fetch(ggnote, { mode: 'cors', headers: headers, method: 'GET' })
 				.then(response => response)
