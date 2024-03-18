@@ -956,7 +956,7 @@
 			var blur = document.getElementById('main');
 			var trigger = document.getElementById('trigger-noti');
 			if (banner.style.display === 'none') {
-				banner.style.display = 'grid';
+				banner.style.display = 'block';
 				blur.style.filter = 'blur(4px)';
 				trigger.innerHTML = 'đóng'
 			} else {
@@ -1141,16 +1141,20 @@
 
 		h3 {
 			color: aquamarine;
-			margin: 0;
+			margin-top: 30px;
 			text-shadow: 0 0 10px #eee;
 		}
 
 		p {
-			margin: -60px 12px 0 12px;
+			margin: 0 12px;
 			color: white;
 			font-size: 34px;
 			text-align: left;
 			text-justify: distribute;
+		}
+
+		p:nth-child(1) {
+			margin-top: 15px
 		}
 
 		a:active,
@@ -1159,6 +1163,13 @@
 		a:visited {
 			color: bisque;
 			font-weight: bold;
+		}
+
+		ul {
+			margin: 0 10px;
+			font-size: 34px;
+			text-align: left;
+			text-justify: distribute;
 		}
 	</style>
 </head>
@@ -1225,16 +1236,25 @@
 		</div>
 		<div class="noti" id='banner'>
 			<p>Làm hết các nhiệm vụ rồi mà muốn làm tiếp thì bật 4g, làm hết = 4g r phải đổi máy và đổi IP nhé<br>
-				<strong>Lưu ý<br></strong>
-				Muốn làm thêm phải đổi ip và thiết bị khác (đổi mạng thì phải check ip xem đã đổi chưa) <br>
-				Check ip: <a href="https://whatismyipaddress.com/vi-vn/index" target='_blank'>Check IP</a> (check cái
-				ipv4 với v6 nhé)
-				<br>
-				Mney, blitly, direct, meme nghiêm cấm bật tắt 4g, vpn, dns (làm cách nhau 5p) <br>
-				Teckurl chỉ cần chụp ảnh cuối <br>
-
-				Giới hạn tgian làm nhiệm vụ: Trước 19h mỗi ngày (web1s ngoại lệ trc 21h, normal và teckurl mở 24/24)
-				<br>
+				<strong>Lưu ý:</strong>
+			<ul>
+				<li>
+					Muốn làm thêm phải đổi ip và thiết bị khác (đổi mạng thì phải check ip xem đã đổi chưa)
+				</li>
+				<li>
+					Check ip: <a href="https://whatismyipaddress.com/vi-vn/index" target='_blank'>Check IP</a> (check
+					cái ipv4 với v6 nhé)
+				</li>
+				<li>
+					Mney, blitly, direct, meme nghiêm cấm bật tắt 4g, vpn, dns (làm cách nhau 5p)
+				</li>
+				<li>
+					Teckurl chỉ cần chụp ảnh cuối
+				</li>
+			</ul>
+			</p>
+			<p>
+				Giới hạn tgian làm nhiệm vụ: Trước 19h mỗi ngày (web1s ngoại lệ trc 21h, normal và teckurl mở 24/24)<br>
 				Bảng xếp hạng:
 				<a target='_blank'
 					href="https://docs.google.com/spreadsheets/d/1X6qNNhvibLyCD2rRrVBcRB4qEHdnR8MHYzjDpOW9Fqc/edit?usp=sharing">Bảng
