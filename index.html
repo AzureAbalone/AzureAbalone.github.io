@@ -60,7 +60,7 @@
 					md.disabled = false;
 					md.style.backgroundColor = 'green';
 					md.style.cursor = 'pointer';
-					if (hours >= 0 && hourse <= 4) {
+					if (hours >= 0 && hours <= 4) {
 						bb1.disabled = false;
 						bb1.style.backgroundColor = '';
 						bb1.style.cursor = 'pointer';
@@ -951,6 +951,20 @@
 			);
 			return false;
 		}
+		function noti() {
+			var banner = document.getElementById("banner");
+			var blur = document.getElementById('main');
+			var trigger = document.getElementById('trigger-noti');
+			if (banner.style.display === 'none') {
+				banner.style.display = 'grid';
+				blur.style.filter = 'blur(4px)';
+				trigger.innerHTML = 'đóng'
+			} else {
+				banner.style.display = 'none';
+				trigger.innerHTML = 'đọc thông báo nhiệm vụ ở đây!';
+				blur.style.filter = 'blur(0)';
+			}
+		}
 	</script>
 	<style>
 		body {
@@ -1093,85 +1107,143 @@
 			display: flex;
 		}
 
-		.noti {
+		button.noti {
 			width: 100%;
 			background: linear-gradient(to right, rgba(117, 123, 200, 1) 10%, rgba(129, 135, 220, 1) 20%, rgba(142, 148, 242, 1) 30%, rgba(159, 160, 255, 1) 40%, rgba(173, 167, 255, 1) 50%, rgba(187, 173, 255, 1) 60%, rgba(203, 178, 254, 1) 70%, rgba(218, 182, 252, 1) 80%, rgba(221, 189, 252, 1) 90%, rgba(224, 195, 252, 1) 100%);
 			cursor: pointer;
 			transition: 0.5s;
-		}
-
-		.notih {
+			background-size: 200% auto;
+			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+			box-shadow: 0 0 20px #eee;
 			flex: 1 1 auto;
 			margin: 10px;
 			padding: 30px;
 			text-transform: uppercase;
 			transition: 0.5s;
-			background-size: 200% auto;
-			text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-			box-shadow: 0 0 20px #eee;
 		}
 
 		.notih:hover {
 			background-position: right center;
+		}
+
+		div.noti {
+			color: white;
+			font-size: 50px;
+			position: absolute;
+			border-radius: 20px;
+			border: 1px solid;
+			width: 1300px;
+			height: 100%;
+			box-shadow: 0 0 10px #eee;
+			display: none;
+			background-color: rgba(255, 255, 255, 0.15);
+		}
+
+		h3 {
+			color: aquamarine;
+			margin: 0;
+			text-shadow: 0 0 10px #eee;
+		}
+
+		p {
+			margin: -60px 12px 0 12px;
+			color: white;
+			font-size: 34px;
+			text-align: left;
+			text-justify: distribute;
+		}
+
+		a:active,
+		a:link,
+		a:hover,
+		a:visited {
+			color: bisque;
+			font-weight: bold;
 		}
 	</style>
 </head>
 
 <body>
 	<div>
-		<div class="container"><button class='noti notih'>Đọc thông báo nhiệm vụ ở đây!</button></div>
-		<div class='container'>
-			<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
-				<span>Direct-blitly lần 1</span>
-				<button type="button" onclick="directblitly_2()" class="db" id='db2' disabled>
-					<span>Direct-blitly lần 2</span>
+		<div class="container"><button id='trigger-noti' class='noti notih' onclick='noti()'>Đọc thông báo nhiệm vụ
+				ở đây!</button>
+		</div>
+		<div id="main">
+			<div class='container'>
+				<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
+					<span>Direct-blitly lần 1</span>
+					<button type="button" onclick="directblitly_2()" class="db" id='db2' disabled>
+						<span>Direct-blitly lần 2</span>
+					</button>
+			</div>
+			<div class="container">
+				<button type="button" onclick="blitly_1()" class="bl" id='bl1' disabled>
+					<span>Blitly lần 1</span>
 				</button>
+				<button type="button" onclick="blitly_2()" class="bl" id='bl2' disabled>
+					<span>Blitly lần 2</span>
+				</button>
+			</div>
+			<div class="container">
+				<button type="button" onclick="web1s_1()" class="w1s" id='w1s1' disabled>
+					<span>Web1s lần 1</span>
+				</button>
+				<button type="button" onclick="web1s_2()" class="w1s" id='w1s2' disabled>
+					<span>Web1s lần 2</span>
+				</button>
+				<button type="button" onclick="web1s_3()" class="w1s" id='w1s3' disabled>
+					<span>Web1s lần 3</span>
+				</button>
+				<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
+					<span>Web1s lần 4</span>
+				</button>
+			</div>
+			<div class="container">
+				<button class="ml" type="button" onclick="mneylink()" id='ml' disabled><span>Mneylink</span></button>
+				<button class="md" type="button" onclick="mneydrec()" id='md' disabled><span>Mneydrec</span></button>
+			</div>
+			<div class="container">
+				<button class="nm" type="button" onclick="normal_1()"><span>Normal lần
+						1</span></button>
+				<button class="nm" type="button" onclick="normal_2()"><span>Normal lần
+						2</span></button>
+			</div>
+			<div class="container">
+				<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled><span>Memelink lần
+						1</span></button>
+				<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled><span>Memelink lần
+						2</span></button>
+			</div>
+			<div class="container">
+				<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
+				<button class="gg" type="button" id='gg' onclick='ggoklink()' disabled><span>Ggoklink</span></button>
+			</div>
+			<div class="container">
+				<button class="bb" type="button" id='bb1' onclick="bb1()" disabled><span>Bitlybox lần 1</span></button>
+				<button class="bb" type="button" id='bb2' onclick='bb2()' disabled><span>Bitlybox lần 2</span></button>
+			</div>
 		</div>
-		<div class="container">
-			<button type="button" onclick="blitly_1()" class="bl" id='bl1' disabled>
-				<span>Blitly lần 1</span>
-			</button>
-			<button type="button" onclick="blitly_2()" class="bl" id='bl2' disabled>
-				<span>Blitly lần 2</span>
-			</button>
-		</div>
-		<div class="container">
-			<button type="button" onclick="web1s_1()" class="w1s" id='w1s1' disabled>
-				<span>Web1s lần 1</span>
-			</button>
-			<button type="button" onclick="web1s_2()" class="w1s" id='w1s2' disabled>
-				<span>Web1s lần 2</span>
-			</button>
-			<button type="button" onclick="web1s_3()" class="w1s" id='w1s3' disabled>
-				<span>Web1s lần 3</span>
-			</button>
-			<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
-				<span>Web1s lần 4</span>
-			</button>
-		</div>
-		<div class="container">
-			<button class="ml" type="button" onclick="mneylink()" id='ml' disabled><span>Mneylink</span></button>
-			<button class="md" type="button" onclick="mneydrec()" id='md' disabled><span>Mneydrec</span></button>
-		</div>
-		<div class="container">
-			<button class="nm" type="button" onclick="normal_1()"><span>Normal lần
-					1</span></button>
-			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần
-					2</span></button>
-		</div>
-		<div class="container">
-			<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled><span>Memelink lần
-					1</span></button>
-			<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled><span>Memelink lần
-					2</span></button>
-		</div>
-		<div class="container">
-			<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
-			<button class="gg" type="button" id='gg' onclick='ggoklink()' disabled><span>Ggoklink</span></button>
-		</div>
-		<div class="container">
-			<button class="bb" type="button" id='bb1' onclick="bb1()" disabled><span>Bitlybox lần 1</span></button>
-			<button class="bb" type="button" id='bb2' onclick='bb2()' disabled><span>Bitlybox lần 2</span></button>
+		<div class="noti" id='banner'>
+			<p>Làm hết các nhiệm vụ rồi mà muốn làm tiếp thì bật 4g, làm hết = 4g r phải đổi máy và đổi IP nhé<br>
+				<strong>Lưu ý<br></strong>
+				Muốn làm thêm phải đổi ip và thiết bị khác (đổi mạng thì phải check ip xem đã đổi chưa) <br>
+				Check ip: <a href="https://whatismyipaddress.com/vi-vn/index" target='_blank'>Check IP</a> (check cái
+				ipv4 với v6 nhé)
+				<br>
+				Mney, blitly, direct, meme nghiêm cấm bật tắt 4g, vpn, dns (làm cách nhau 5p) <br>
+				Teckurl chỉ cần chụp ảnh cuối <br>
+
+				Giới hạn tgian làm nhiệm vụ: Trước 19h mỗi ngày (web1s ngoại lệ trc 21h, normal và teckurl mở 24/24)
+				<br>
+				Bảng xếp hạng:
+				<a target='_blank'
+					href="https://docs.google.com/spreadsheets/d/1X6qNNhvibLyCD2rRrVBcRB4qEHdnR8MHYzjDpOW9Fqc/edit?usp=sharing">Bảng
+					xếp hạng</a> <br>
+				Làm xong chụp ảnh gửi ad <a href="https://t.me/Azure_Abalone" target='_blank'>Bào ngư</a>
+			</p>
+			<h3>1 tuần làm ít nhất 2 ngày nhiệm vụ phụ, mỗi ngày trên 1500đ, ai không làm đủ ad không bank. Bận không
+				làm
+				được thì nhắn ad xin nghỉ.</h3>
 		</div>
 	</div>
 </body>
