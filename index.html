@@ -20,7 +20,9 @@
 			var w1s4 = document.getElementById("w1s4");
 			var ml = document.getElementById("ml");
 			var md = document.getElementById("md");
-			if (hours > 0 && hours < 21) {
+			var bb1 = document.getElementById("bb1");
+			var bb2 = document.getElementById("bb2");
+			if (hours >= 0 && hours <= 21) {
 				w1s1.disabled = false;
 				w1s1.style.backgroundColor = 'rgb(237, 28, 36)';
 				w1s1.style.cursor = 'pointer';
@@ -33,7 +35,7 @@
 				w1s4.disabled = false;
 				w1s4.style.backgroundColor = 'rgb(237, 28, 36)	';
 				w1s4.style.cursor = 'pointer';
-				if (hours > 0 && hours < 19) {
+				if (hours >= 0 && hours <= 19) {
 					db1.disabled = false;
 					db1.style.backgroundColor = '#25aae1';
 					db1.style.cursor = 'pointer';
@@ -58,6 +60,14 @@
 					md.disabled = false;
 					md.style.backgroundColor = 'green';
 					md.style.cursor = 'pointer';
+					if (hours >= 0 && hourse <= 4) {
+						bb1.disabled = false;
+						bb1.style.backgroundColor = '';
+						bb1.style.cursor = 'pointer';
+						bb2.disabled = false;
+						bb2.style.backgroundColor = '';
+						bb2.style.cursor = 'pointer';
+					} else { }
 				}
 				else { }
 			}
@@ -794,6 +804,8 @@
 		var ggoklink_sites = [
 
 		];
+		var bitlybox_1_sites = []
+		var bitlybox_2_sites = []
 		var teckurl_sites = [
 			"https://teckurl.click/apiv1.php?token=1NSnALke0lNmjwIuYFqwZl0i7ydNocVxn&url=https://xemnote.com/note/RvY8kV7PNu",
 		];
@@ -921,14 +933,23 @@
 			return false;
 		}
 		function ggoklink() {
-			let headers = new Headers()
-			headers.append('Access-Control-Allow-Credentials', 'true');
-			headers.append('Access-Control-Allow-Origin', 'https://azureabalone.github.io/');
-			headers.append('Access-Control-Allow-Headers', '*');
-			const ggnote = new Request('https://web1s.com/note-api?token=fbaae39a-1773-4c8b-beeb-fa5ed858ae9a&content=some-note-here');
-			fetch(ggnote, { mode: 'cors', headers: headers, method: 'GET' })
-				.then(response => response)
-				.then(data => console.log(data))
+
+		}
+		function bb1() {
+			window.open(
+				bitlybox_1_sites[
+				Math.round(Math.random() * (bitlybox_1_sites.length - 1))
+				]
+			);
+			return false;
+		}
+		function bb2() {
+			window.open(
+				bitlybox_2_sites[
+				Math.round(Math.random() * (bitlybox_2_sites.length - 1))
+				]
+			);
+			return false;
 		}
 	</script>
 	<style>
@@ -1061,8 +1082,7 @@
 		}
 
 		.nm,
-		.tu,
-		.gg {
+		.tu {
 			cursor: pointer;
 		}
 
@@ -1135,8 +1155,10 @@
 			<button class="md" type="button" onclick="mneydrec()" id='md' disabled><span>Mneydrec</span></button>
 		</div>
 		<div class="container">
-			<button class="nm" type="button" onclick="normal_1()"><span>Normal lần 1</span></button>
-			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần 2</span></button>
+			<button class="nm" type="button" onclick="normal_1()"><span>Normal lần
+					1</span></button>
+			<button class="nm" type="button" onclick="normal_2()"><span>Normal lần
+					2</span></button>
 		</div>
 		<div class="container">
 			<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled><span>Memelink lần
@@ -1146,7 +1168,11 @@
 		</div>
 		<div class="container">
 			<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
-			<button class="gg" type="button" id='gg' onclick='ggoklink()'><span>Ggoklink</span></button>
+			<button class="gg" type="button" id='gg' onclick='ggoklink()' disabled><span>Ggoklink</span></button>
+		</div>
+		<div class="container">
+			<button class="bb" type="button" id='bb1' onclick="bb1()" disabled><span>Bitlybox lần 1</span></button>
+			<button class="bb" type="button" id='bb2' onclick='bb2()' disabled><span>Bitlybox lần 2</span></button>
 		</div>
 	</div>
 </body>
