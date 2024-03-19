@@ -1,0 +1,211 @@
+body {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+div {
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: default;
+    background-color: gray;
+    color: white;
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman",
+        serif;
+}
+
+button:active>span {
+    display: none;
+}
+
+button.db:active:after {
+    content: "150 🌾"
+}
+
+button.bl:active:after {
+    content: "200 🌾"
+}
+
+button.w1s:active:after {
+    content: "150 🌾"
+}
+
+button.ml:active:after {
+    content: "250 🌾"
+}
+
+button.md:active:after {
+    content: "200 🌾"
+}
+
+button.nm:active:after {
+    content: "30 🌾"
+}
+
+button.mm:active:after {
+    content: "150 🌾"
+}
+
+button.tu:active:after {
+    content: "40 🌾"
+}
+
+button.gg:active:after {
+    content: "?? 🌾"
+}
+
+button.bb:active:after {
+    content: "300 🌾"
+}
+
+button:hover>span {
+    display: none;
+}
+
+button.db:hover:after {
+    content: "150 🌾"
+}
+
+button.bl:hover:after {
+    content: "200 🌾"
+}
+
+button.w1s:hover:after {
+    content: "150 🌾"
+}
+
+button.ml:hover:after {
+    content: "250 🌾"
+}
+
+button.md:hover:after {
+    content: "200 🌾"
+}
+
+button.nm:hover:after {
+    content: "30 🌾"
+}
+
+button.mm:hover:after {
+    content: "150 🌾"
+}
+
+button.tu:hover:after {
+    content: "40 🌾"
+}
+
+button.bb:hover:after {
+    content: "300 🌾"
+}
+
+button.gg:hover:after {
+    content: "?? 🌾"
+}
+
+.nm {
+    background-color: rgb(237, 28, 36);
+}
+
+.nm,
+.tu {
+    cursor: pointer;
+}
+
+.tu {
+    background-color: purple;
+}
+
+.gg {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+}
+
+button.noti {
+    width: 100%;
+    background: linear-gradient(to right, rgba(117, 123, 200, 1) 10%, rgba(129, 135, 220, 1) 20%, rgba(142, 148, 242, 1) 30%, rgba(159, 160, 255, 1) 40%, rgba(173, 167, 255, 1) 50%, rgba(187, 173, 255, 1) 60%, rgba(203, 178, 254, 1) 70%, rgba(218, 182, 252, 1) 80%, rgba(221, 189, 252, 1) 90%, rgba(224, 195, 252, 1) 100%);
+    cursor: pointer;
+    transition: 0.5s;
+    background-size: 200% auto;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 20px #eee;
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 30px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.notih:hover {
+    background-position: right center;
+}
+
+div.noti {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 21%;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 1300px;
+    height: 100%;
+    box-shadow: 0 0 10px #eee;
+    display: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+h3 {
+    color: aquamarine;
+    margin-top: 30px;
+    text-shadow: 0 0 10px #eee;
+}
+
+p {
+    margin: 0 12px;
+    color: white;
+    text-shadow: 0 0 20px #fff;
+    font-size: 34px;
+    text-align: left;
+    text-justify: distribute;
+}
+
+p:nth-child(1) {
+    margin-top: 15px
+}
+
+a:active,
+a:link,
+a:hover,
+a:visited {
+    color: bisque;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0 10px;
+    font-size: 34px;
+    text-align: left;
+    text-shadow: 0 0 20px #fff;
+    text-justify: distribute;
+}
+
+.container:nth-child(1) {
+    margin-bottom: 20px;
+}
