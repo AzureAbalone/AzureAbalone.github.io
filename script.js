@@ -122,6 +122,26 @@ let direct_blitly_1_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/C1QRJisJvl",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/qpaHMW4TOI",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/IizNHqlk2l",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/JPLDgIgkM2",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/eB29NtZ36p",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/MjZgJMsJvt",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/P70CkFSGgr",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/nY9DaRhosL",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/G4nNOhnknD",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/dL92dhqGeZ",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/wb96vrnRgn",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/eJ5UAK2hUb",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/GkmulNalcx",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/AttFYdvXeg",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/7dH8cBWjZp",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/qX9FWjqddn",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/NeJa6kKCDT",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/v6EMqZatrB",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/e1hqQpZYdF",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/4Vdmxbzg5E",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/WHncrYv9vY",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/PcHG6GiYDV",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/egUBa3JdML",
 ];
 let direct_blitly_2_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/Xa9KKmpWFy",
@@ -174,6 +194,26 @@ let direct_blitly_2_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/bvwYJMe5MX",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/cSyoxgy5kc",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/9Q05tR16oD",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/fnQVLk2bJu",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/YNAOBAXsDU",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/3ZDp5ZLpZu",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/OxO7CvIJBP",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/tWljmxb9WY",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/IKAYBclfTW",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/G3qg2tLR9x",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/OKDQ9qGWEC",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/jWOwulSKLa",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/oP8WTsdQfn",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/FKgXaSkxHV",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/CJ2BWDxJuy",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/DunM0w4yw5",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/a2WrG6lC5G",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/khoU48xvfw",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/cenFAS2SA9",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/A3UGOpO138",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/IahVRyPGkb",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/T7riwU2HqK",
+	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/Wfe5iR0RsE",
 ];
 let blitly_1_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/IznsJlG3ud",
@@ -226,6 +266,26 @@ let blitly_1_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/CHtfkplpYk",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/HSb73hWsBF",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/xRQhQVO2MV",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/jZ2c29iI3P",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/QmjvRkHuDV",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/ZXx0cFOFEu",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/ZjQtvpBWuG",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/acThNBFVUk",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/z91787vCmR",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/4tmhMIVtYh",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/NgiAp83xFn",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/UFlNi6BUHz",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/2yHtzLPnZT",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/mS9MfriUbY",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/f2j42PiyIS",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/tapIvBFRSP",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/dZcBpNbRkD",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/Rx15sIbGro",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/leH3SfysxA",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/bxnQdmEMOC",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/NVYc2BJ0Gc",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/qtXEU55b1v",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/iNHdb2i0jC",
 ];
 let blitly_2_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/mSeoDMah52",
@@ -278,6 +338,26 @@ let blitly_2_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/AlkN8ky3VB",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/KUu6HNS0dv",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/mr5p2eGrWz",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/2v415IW5JL",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/Tsf0FjzI8u",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/A8rgYhZhpd",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/QLkn6T3J47",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/XAC9mihBw2",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/s7GEQq5obZ",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/seGuhm8jHl",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/83an57c4R5",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/SacNW9u0QC",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/UuI1QsoRSH",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/QbeMDeIDv2",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/7AD1cBFDcA",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/P284MQnNSZ",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/Os5tXPVT9b",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/AsfMZOHssJ",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/ZZO3wcKyQJ",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/WDInTJNfJX",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/SXhXynlDIY",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/JnrrYWyMGQ",
+	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/QEuEmdiRrb",
 ];
 let web1s_1_sites = [
 	"https://rac1s.com/X2G9IchiW7",
@@ -310,6 +390,16 @@ let web1s_1_sites = [
 	"https://rac1s.com/9WFKr6xfoQ",
 	"https://rac1s.com/iFmnYJaifa",
 	"https://rac1s.com/2kKRItpwh4",
+	"https://rac1s.com/B5Upjz0hMf",
+	"https://rac1s.com/90L9x3VeUO",
+	"https://rac1s.com/a8mt64UByN",
+	"https://rac1s.com/d8XvJ87V3U",
+	"https://rac1s.com/NxYfBNVWu4",
+	"https://rac1s.com/kB382xx2WD",
+	"https://rac1s.com/J1wiC7zGtK",
+	"https://rac1s.com/cYlb75xxCP",
+	"https://rac1s.com/g4T4A18kXw",
+	"https://rac1s.com/K4aexL4mHv",
 ];
 let web1s_2_sites = [
 	"https://rac1s.com/76AWugt6nj",
@@ -342,6 +432,16 @@ let web1s_2_sites = [
 	"https://rac1s.com/DLBek7r0Al",
 	"https://rac1s.com/2DAiZnygUQ",
 	"https://rac1s.com/Cm1GImYA1p",
+	"https://rac1s.com/qQs8sQD96N",
+	"https://rac1s.com/LadzUyNJ5T",
+	"https://rac1s.com/SrLoyRopzx",
+	"https://rac1s.com/nyLWW6ovAV",
+	"https://rac1s.com/ba5fteKCAe",
+	"https://rac1s.com/QwXvjRJdng",
+	"https://rac1s.com/QiP9Shbiix",
+	"https://rac1s.com/FqmGi1dpOQ",
+	"https://rac1s.com/YBQ6UcPFe2",
+	"https://rac1s.com/4HvZPATHIW",
 ];
 let web1s_3_sites = [
 	"https://rac1s.com/Q14nL2acwd",
@@ -374,6 +474,16 @@ let web1s_3_sites = [
 	"https://rac1s.com/bFoOsBNApq",
 	"https://rac1s.com/YW6VYWVqAy",
 	"https://rac1s.com/CiFnHzA1OY",
+	"https://rac1s.com/5ZncsxjagU",
+	"https://rac1s.com/fm4x1CgzS7",
+	"https://rac1s.com/oBm6qzdQA4",
+	"https://rac1s.com/3QQ8qIezyX",
+	"https://rac1s.com/1MkVXxCL1d",
+	"https://rac1s.com/kAdQw6Fp99",
+	"https://rac1s.com/NOGPC9hxSy",
+	"https://rac1s.com/zkmxPDU8Lp",
+	"https://rac1s.com/fsjYDgYxWl",
+	"https://rac1s.com/s8ps0vJUWk",
 ];
 let web1s_4_sites = [
 	"https://rac1s.com/yaRdDMrc27",
@@ -406,6 +516,16 @@ let web1s_4_sites = [
 	"https://rac1s.com/SoMMQAu0w9",
 	"https://rac1s.com/pzkmkoiKk2",
 	"https://rac1s.com/VyL1WDRwkA",
+	"https://rac1s.com/mVaWaATj55",
+	"https://rac1s.com/GxWX7PgLme",
+	"https://rac1s.com/8qkD79lQnG",
+	"https://rac1s.com/od15UNxFLv",
+	"https://rac1s.com/SCMb3JK8Xn",
+	"https://rac1s.com/3GoE6nJCyL",
+	"https://rac1s.com/h4tvnojomq",
+	"https://rac1s.com/QtDHXoy4Bw",
+	"https://rac1s.com/nmMiSJ4uK7",
+	"https://rac1s.com/ZucIhCTMLF",
 ];
 let mneylink_sites = [
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/QotoDse00Y",
@@ -458,6 +578,26 @@ let mneylink_sites = [
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/TmCKpqN1fl",
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/6HPyVpXHkS",
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/FyzRiN1yvL",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/1WGAe275cp",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/zuDNSdNHjl",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/gScJLnVM3Z",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/fQR27O8u9D",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/8gYnAxsQNO",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/TOpY0476Tw",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/5r9pncebzz",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/NjDR6HyVh9",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/vwtRWpnJt8",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/7tL2gUF557",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/YHoJKlnfOO",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/paBjCDP5Zc",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/HVDUCev1jI",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/qDa6DGI8u7",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/e7fHB6ob4i",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/herw0vEZSJ",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/J0OQUkEVOA",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/r94l61KwBD",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/DfXqivZasD",
+	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/5iSaBdvYvo",
 ];
 let mneydrec_sites = [
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/xafJ9JFwxn",
@@ -510,6 +650,26 @@ let mneydrec_sites = [
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/uCGDWzhQzO",
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/yArPd5bbyM",
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/VZ08BynCY4",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/1zZuI05f6Z",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/uzr6NQswgB",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/8iNrQMMSot",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/o9AqYESuOK",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/7mSPjMyxaD",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/RbypZfgPvp",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/gHYO2eTDyp",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/34J5fOkAMw",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/xccDLhhWk7",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/GlbBXKntJz",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/YqEawBXe0L",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/tnZLQZf1L5",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/TFsu9c7OW7",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/qQF2IHPAT9",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/IZ7Ii8E2W5",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/hgDH1Q4OV0",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/p2fEgyd5qP",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/Cz0y23uDV2",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/WLNfpG2WKK",
+	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/gI90SxV1gs",
 ];
 let normal_1_sites = [
 	"https://rac1s.com/1pQhy4CbtX",
@@ -542,9 +702,19 @@ let normal_1_sites = [
 	"https://rac1s.com/pbRmAYWFZX",
 	"https://rac1s.com/Ym1Y2rDVpk",
 	"https://rac1s.com/VPeeYP6Hzu",
+	"https://rac1s.com/eKiQ4iQ3rf",
+	"https://rac1s.com/ijkq9wbE4J",
+	"https://rac1s.com/tThO7letkT",
+	"https://rac1s.com/RT4yvEDFVd",
+	"https://rac1s.com/f0JbmdpdFL",
 ];
 let normal_2_sites = [
 	"https://rac1s.com/9qoo1domEK",
+	"https://rac1s.com/nDTkbHVCTS",
+	"https://rac1s.com/UaGTB6OMZq",
+	"https://rac1s.com/j7AugJN7Ol",
+	"https://rac1s.com/voiKnrZHiZ",
+	"https://rac1s.com/mhwpGVkCsY",
 	"https://rac1s.com/MsYCeicKvA",
 	"https://rac1s.com/9NVZr9xC23",
 	"https://rac1s.com/5s5EsP0r5g",
@@ -812,7 +982,7 @@ let teckurl_sites = [
 function directblitly_1() {
 	window.open(
 		direct_blitly_1_sites[
-			Math.round(Math.random() * (direct_blitly_1_sites.length - 1))
+		Math.round(Math.random() * (direct_blitly_1_sites.length - 1))
 		]
 	);
 	return false;
@@ -820,7 +990,7 @@ function directblitly_1() {
 function directblitly_2() {
 	window.open(
 		direct_blitly_2_sites[
-			Math.round(Math.random() * (direct_blitly_2_sites.length - 1))
+		Math.round(Math.random() * (direct_blitly_2_sites.length - 1))
 		]
 	);
 	return false;
@@ -903,48 +1073,12 @@ function teckurl() {
 	);
 	return false;
 }
-async function ggoklink() {
-	async function shortenUrl(note) {
-		const headers = {
-			"Content-Type":
-				"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7,application/json",
-			"Access-Control-Allow-Origin": "*",
-			"Access-Control-Allow-Methods": "GET,POST,PATCH,OPTIONS",
-			"Access-Control-Allow-Headers": "Accept",
-		};
-		const apiToken = "e2a9c028-b032-437a-8a2f-129da76cd349";
-		const apiUrl = `https://web1s.com/api?token=${apiToken}&content=${encodeURIComponent(
-			note
-		)}`;
-
-		try {
-			const response = await fetch(apiUrl, {
-				headers: headers,
-				header: headers,
-				mode: "cors",
-			});
-			const data = await response;
-
-			if (data.status === "error") {
-				console.error(data.message);
-			} else {
-				console.log("Shortened URL:", data);
-			}
-		} catch (error) {
-			console.error("An error occurred:", error);
-		}
-	}
-
-	// Example usage:
-	const note =
-		"https://www.messenger.com/messenger_media?attachment_id=7300984826658529&message_id=mid.%24cAAAB_GftNMqUh2cZzWOViG9S8pDd&thread_id=100041066348871";
-	await console.log(shortenUrl(note));
-}
+function ggoklink() { }
 
 function bb1() {
 	window.open(
 		bitlybox_1_sites[
-			Math.round(Math.random() * (bitlybox_1_sites.length - 1))
+		Math.round(Math.random() * (bitlybox_1_sites.length - 1))
 		]
 	);
 	return false;
@@ -952,7 +1086,7 @@ function bb1() {
 function bb2() {
 	window.open(
 		bitlybox_2_sites[
-			Math.round(Math.random() * (bitlybox_2_sites.length - 1))
+		Math.round(Math.random() * (bitlybox_2_sites.length - 1))
 		]
 	);
 	return false;
