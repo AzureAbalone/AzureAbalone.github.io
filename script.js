@@ -13,6 +13,7 @@ window.addEventListener(
 		const w1s2 = document.getElementById("w1s2");
 		const w1s3 = document.getElementById("w1s3");
 		const w1s4 = document.getElementById("w1s4");
+		const w1s5 = document.getElementById("w1s5");
 		const ml = document.getElementById("ml");
 		const md = document.getElementById("md");
 		const bb1 = document.getElementById("bb1");
@@ -30,6 +31,9 @@ window.addEventListener(
 			w1s4.disabled = false;
 			w1s4.style.backgroundColor = "rgb(237, 28, 36)	";
 			w1s4.style.cursor = "pointer";
+			w1s5.disabled = false;
+			w1s5.style.backgroundColor = "rgb(237, 28, 36)	";
+			w1s5.style.cursor = "pointer";
 			if (hours >= 0 && hours <= 19) {
 				db1.disabled = false;
 				db1.style.backgroundColor = "#25aae1";
@@ -526,6 +530,48 @@ const web1s_4_sites = [
 	"https://rac1s.com/QtDHXoy4Bw",
 	"https://rac1s.com/nmMiSJ4uK7",
 	"https://rac1s.com/ZucIhCTMLF",
+];
+const web1s_5_sites = [
+	"https://rac1s.com/HxplR1Cr6D",
+	"https://rac1s.com/N4OLH00B5L",
+	"https://rac1s.com/5TeSc44eV2",
+	"https://rac1s.com/bPeio9gVC1",
+	"https://rac1s.com/z0X6NvhGYy",
+	"https://rac1s.com/EirWmRedgz",
+	"https://rac1s.com/hsZXUT8B28",
+	"https://rac1s.com/LLW11CGrvT",
+	"https://rac1s.com/Y6msZd9nZs",
+	"https://rac1s.com/hjY8Pnuvf5",
+	"https://rac1s.com/vOLtjjahL5",
+	"https://rac1s.com/iuOs9WAvtg",
+	"https://rac1s.com/EWXfbVujK9",
+	"https://rac1s.com/voiXnld7Zy",
+	"https://rac1s.com/b6zkAFlJ9n",
+	"https://rac1s.com/rKUR5FOFqN",
+	"https://rac1s.com/aS6uYw9KBC",
+	"https://rac1s.com/O4uhrCjPMs",
+	"https://rac1s.com/GdmK2bT0xi",
+	"https://rac1s.com/nsOgAmiKO1",
+	"https://rac1s.com/R0TtoDBkeR",
+	"https://rac1s.com/CGg9OINA7Q",
+	"https://rac1s.com/lOTADTJb13",
+	"https://rac1s.com/WzrUspnUxH",
+	"https://rac1s.com/Gk01V5lDyQ",
+	"https://rac1s.com/BepPP531cs",
+	"https://rac1s.com/Kg4DarCY8D",
+	"https://rac1s.com/RvfTA6AXfb",
+	"https://rac1s.com/LABPvHfHFl",
+	"https://rac1s.com/OWvvzS8774",
+	"https://rac1s.com/u7t3b6fI2w",
+	"https://rac1s.com/URDNsszAds",
+	"https://rac1s.com/Vhk9wJ51Zw",
+	"https://rac1s.com/mDMSsvZOzg",
+	"https://rac1s.com/wzBPLls05Z",
+	"https://rac1s.com/fqNbOmIkBC",
+	"https://rac1s.com/v8cTmXAWAN",
+	"https://rac1s.com/2denfuK2va",
+	"https://rac1s.com/x6i066Wf82",
+	"https://rac1s.com/hl7CJGCiG9",
 ];
 const mneylink_sites = [
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/QotoDse00Y",
