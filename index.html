@@ -5,6 +5,85 @@
 	<meta charset="utf-8" />
 	<title>Redirect nhiệm vụ</title>
 	<link rel="stylesheet" href="style.css">
+	<script>
+		window.addEventListener(
+			"load",
+			function () {
+				const currentTime = new Date();
+				const hours = currentTime.getHours();
+				const db1 = document.getElementById("db1");
+				const db2 = document.getElementById("db2");
+				const mm1 = document.getElementById("mm1");
+				const mm2 = document.getElementById("mm2");
+				const bl1 = document.getElementById("bl1");
+				const bl2 = document.getElementById("bl2");
+				const w1s1 = document.getElementById("w1s1");
+				const w1s2 = document.getElementById("w1s2");
+				const w1s3 = document.getElementById("w1s3");
+				const w1s4 = document.getElementById("w1s4");
+				const w1s5 = document.getElementById("w1s5");
+				const ml = document.getElementById("ml");
+				const md = document.getElementById("md");
+				const bb1 = document.getElementById("bb1");
+				const bb2 = document.getElementById("bb2");
+				if (hours >= 0 && hours <= 21) {
+					w1s1.disabled = false;
+					w1s1.style.backgroundColor = "rgb(237, 28, 36)";
+					w1s1.style.cursor = "pointer";
+					w1s2.disabled = false;
+					w1s2.style.backgroundColor = "rgb(237, 28, 36)";
+					w1s2.style.cursor = "pointer";
+					w1s3.disabled = false;
+					w1s3.style.backgroundColor = "rgb(237, 28, 36)	";
+					w1s3.style.cursor = "pointer";
+					w1s4.disabled = false;
+					w1s4.style.backgroundColor = "rgb(237, 28, 36)	";
+					w1s4.style.cursor = "pointer";
+					w1s5.disabled = false;
+					w1s5.style.backgroundColor = "rgb(237, 28, 36)	";
+					w1s5.style.cursor = "pointer";
+					if (hours >= 0 && hours <= 19) {
+						db1.disabled = false;
+						db1.style.backgroundColor = "#25aae1";
+						db1.style.cursor = "pointer";
+						mm1.disabled = false;
+						mm1.style.cursor = "pointer";
+						mm1.style.backgroundColor = "rgb(237, 28, 36)";
+						bl1.disabled = false;
+						bl1.style.backgroundColor = "#f5510b";
+						bl1.style.cursor = "pointer";
+						ml.disabled = false;
+						ml.style.backgroundColor = "rgb(196, 11, 17)";
+						ml.style.cursor = "pointer";
+						db2.disabled = false;
+						db2.style.backgroundColor = "#25aae1";
+						db2.style.cursor = "pointer";
+						mm2.disabled = false;
+						mm2.style.cursor = "pointer";
+						mm2.style.backgroundColor = "rgb(237, 28, 36)";
+						bl2.disabled = false;
+						bl2.style.backgroundColor = "#f5510b";
+						bl2.style.cursor = "pointer";
+						md.disabled = false;
+						md.style.backgroundColor = "green";
+						md.style.cursor = "pointer";
+						if (hours >= 0 && hours <= 4) {
+							bb1.disabled = false;
+							bb1.style.backgroundColor = "";
+							bb1.style.cursor = "pointer";
+							bb2.disabled = false;
+							bb2.style.backgroundColor = "";
+							bb2.style.cursor = "pointer";
+						} else {
+						}
+					} else {
+					}
+				} else {
+				}
+			},
+			false
+		);
+	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script src="script.js"></script>
 </head>
