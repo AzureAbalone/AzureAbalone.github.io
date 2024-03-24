@@ -1,22 +1,22 @@
 window.addEventListener(
 	"load",
 	function () {
-		let currentTime = new Date();
-		let hours = currentTime.getHours();
-		let db1 = document.getElementById("db1");
-		let db2 = document.getElementById("db2");
-		let mm1 = document.getElementById("mm1");
-		let mm2 = document.getElementById("mm2");
-		let bl1 = document.getElementById("bl1");
-		let bl2 = document.getElementById("bl2");
-		let w1s1 = document.getElementById("w1s1");
-		let w1s2 = document.getElementById("w1s2");
-		let w1s3 = document.getElementById("w1s3");
-		let w1s4 = document.getElementById("w1s4");
-		let ml = document.getElementById("ml");
-		let md = document.getElementById("md");
-		let bb1 = document.getElementById("bb1");
-		let bb2 = document.getElementById("bb2");
+		const currentTime = new Date();
+		const hours = currentTime.getHours();
+		const db1 = document.getElementById("db1");
+		const db2 = document.getElementById("db2");
+		const mm1 = document.getElementById("mm1");
+		const mm2 = document.getElementById("mm2");
+		const bl1 = document.getElementById("bl1");
+		const bl2 = document.getElementById("bl2");
+		const w1s1 = document.getElementById("w1s1");
+		const w1s2 = document.getElementById("w1s2");
+		const w1s3 = document.getElementById("w1s3");
+		const w1s4 = document.getElementById("w1s4");
+		const ml = document.getElementById("ml");
+		const md = document.getElementById("md");
+		const bb1 = document.getElementById("bb1");
+		const bb2 = document.getElementById("bb2");
 		if (hours >= 0 && hours <= 21) {
 			w1s1.disabled = false;
 			w1s1.style.backgroundColor = "rgb(237, 28, 36)";
@@ -71,7 +71,7 @@ window.addEventListener(
 	},
 	false
 );
-let direct_blitly_1_sites = [
+const direct_blitly_1_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/hOKir4Y4w7",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/vo0R3OElHd",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/N9kEDCOAsS",
@@ -143,7 +143,7 @@ let direct_blitly_1_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/PcHG6GiYDV",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/egUBa3JdML",
 ];
-let direct_blitly_2_sites = [
+const direct_blitly_2_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/Xa9KKmpWFy",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/XogCawdFP1",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/lB9YNZcov5",
@@ -215,7 +215,7 @@ let direct_blitly_2_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/T7riwU2HqK",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/Wfe5iR0RsE",
 ];
-let blitly_1_sites = [
+const blitly_1_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/IznsJlG3ud",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/SesVbsiLVe",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/4Ihow4D8j7",
@@ -287,7 +287,7 @@ let blitly_1_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/qtXEU55b1v",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/iNHdb2i0jC",
 ];
-let blitly_2_sites = [
+const blitly_2_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/mSeoDMah52",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/3MivTwh2KW",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/dLPZh9WjFK",
@@ -359,7 +359,7 @@ let blitly_2_sites = [
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/JnrrYWyMGQ",
 	"https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://xemnote.com/note/QEuEmdiRrb",
 ];
-let web1s_1_sites = [
+const web1s_1_sites = [
 	"https://rac1s.com/X2G9IchiW7",
 	"https://rac1s.com/gzvBf88Fnp",
 	"https://rac1s.com/wYefmMG1h8",
@@ -401,7 +401,7 @@ let web1s_1_sites = [
 	"https://rac1s.com/g4T4A18kXw",
 	"https://rac1s.com/K4aexL4mHv",
 ];
-let web1s_2_sites = [
+const web1s_2_sites = [
 	"https://rac1s.com/76AWugt6nj",
 	"https://rac1s.com/7VHPEy1qvR",
 	"https://rac1s.com/aAHWwN2Zsb",
@@ -443,7 +443,7 @@ let web1s_2_sites = [
 	"https://rac1s.com/YBQ6UcPFe2",
 	"https://rac1s.com/4HvZPATHIW",
 ];
-let web1s_3_sites = [
+const web1s_3_sites = [
 	"https://rac1s.com/Q14nL2acwd",
 	"https://rac1s.com/Xl7kEv3hYV",
 	"https://rac1s.com/0yZMxrlBJb",
@@ -485,7 +485,7 @@ let web1s_3_sites = [
 	"https://rac1s.com/fsjYDgYxWl",
 	"https://rac1s.com/s8ps0vJUWk",
 ];
-let web1s_4_sites = [
+const web1s_4_sites = [
 	"https://rac1s.com/yaRdDMrc27",
 	"https://rac1s.com/kuo0QJ2qh6",
 	"https://rac1s.com/jkpOY8eVBf",
@@ -527,7 +527,7 @@ let web1s_4_sites = [
 	"https://rac1s.com/nmMiSJ4uK7",
 	"https://rac1s.com/ZucIhCTMLF",
 ];
-let mneylink_sites = [
+const mneylink_sites = [
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/QotoDse00Y",
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/EMbUBVPBmX",
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/3owZ4s3bit",
@@ -599,7 +599,7 @@ let mneylink_sites = [
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/DfXqivZasD",
 	"https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://xemnote.com/note/5iSaBdvYvo",
 ];
-let mneydrec_sites = [
+const mneydrec_sites = [
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/xafJ9JFwxn",
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/AATGasZHqz",
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/C5FXessIlA",
@@ -671,7 +671,7 @@ let mneydrec_sites = [
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/WLNfpG2WKK",
 	"https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://xemnote.com/note/gI90SxV1gs",
 ];
-let normal_1_sites = [
+const normal_1_sites = [
 	"https://rac1s.com/1pQhy4CbtX",
 	"https://rac1s.com/CRg55d43Kw",
 	"https://rac1s.com/Ibwk1dZowa",
@@ -704,11 +704,11 @@ let normal_1_sites = [
 	"https://rac1s.com/VPeeYP6Hzu",
 	"https://rac1s.com/eKiQ4iQ3rf",
 	"https://rac1s.com/ijkq9wbE4J",
-	"https://rac1s.com/tThO7letkT",
+	"https://rac1s.com/tThO7constkT",
 	"https://rac1s.com/RT4yvEDFVd",
 	"https://rac1s.com/f0JbmdpdFL",
 ];
-let normal_2_sites = [
+const normal_2_sites = [
 	"https://rac1s.com/9qoo1domEK",
 	"https://rac1s.com/nDTkbHVCTS",
 	"https://rac1s.com/UaGTB6OMZq",
@@ -745,7 +745,7 @@ let normal_2_sites = [
 	"https://rac1s.com/vYw9iR3DIF",
 	"https://rac1s.com/EEVk0QqL6H",
 ];
-let meme_1_sites = [
+const meme_1_sites = [
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/ZtWdJ47efs",
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/Va05DzynZt",
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/A0txzPxSN4",
@@ -857,7 +857,7 @@ let meme_1_sites = [
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/35O6LQXy2V",
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/gVvmLcjt5n",
 ];
-let meme_2_sites = [
+const meme_2_sites = [
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/e3QkxDiY1k",
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/5f1gMbuMxr",
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/R08YuSTXow",
@@ -969,14 +969,14 @@ let meme_2_sites = [
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/vDfkO9r58E",
 	"https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://xemnote.com/note/mBZNCNXgCF",
 ];
-let ggoklink_sites = [];
-let bitlybox_1_sites = [
+const ggoklink_sites = [];
+const bitlybox_1_sites = [
 	"https://bitlybox.com/api/v1/short-link/ql?token=V16vUYZgxu147omJE275Z9SlpKI8ZCGi&url=https://xemnote.com/note/BOFQFXDwYZ",
 ];
-let bitlybox_2_sites = [
+const bitlybox_2_sites = [
 	"https://bitlybox.com/api/v1/short-link/ql?token=V16vUYZgxu147omJE275Z9SlpKI8ZCGi&url=https://xemnote.com/note/fSr3RgYFQV",
 ];
-let teckurl_sites = [
+const teckurl_sites = [
 	"https://teckurl.click/apiv5.php?token=1NSnALke0lNmjwIuYFqwZli7ydNocVxn&url=https://xemnote.com/note/RvY8kV7PNu",
 ];
 function directblitly_1() {
@@ -1073,7 +1073,18 @@ function teckurl() {
 	);
 	return false;
 }
-function ggoklink() { }
+function ggoklink() {
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET", "run_php.php", true); // Thay đổi đường dẫn đến tệp PHP của bạn
+	xhr.onreadystatechange = function () {
+		if (xhr.readyState === 4 && xhr.status === 200) {
+			// Xử lý kết quả từ mã PHP
+			var response = xhr.responseText;
+			alert(response); // Hiển thị thông báo hoặc thay đổi DOM tùy ý
+		}
+	};
+	xhr.send();
+}
 
 function bb1() {
 	window.open(
@@ -1092,9 +1103,9 @@ function bb2() {
 	return false;
 }
 function noti() {
-	let banner = document.getElementById("banner");
-	let blur = document.getElementById("main");
-	let trigger = document.getElementById("trigger-noti");
+	const banner = document.getElementById("banner");
+	const blur = document.getElementById("main");
+	const trigger = document.getElementById("trigger-noti");
 	if (banner.style.display === "none") {
 		banner.style.display = "block";
 		blur.style.filter = "blur(8px)";
@@ -1105,3 +1116,4 @@ function noti() {
 		blur.style.filter = "blur(0)";
 	}
 }
+
