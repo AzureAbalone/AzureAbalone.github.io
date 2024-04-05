@@ -100,10 +100,8 @@
 			}
 		}
 	</script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	<script src="script.js"></script>
+	<; src="script.js"></script>
 </head>
-
 <body>
 	<div>
 		<div class="container"><button id='trigger-noti' class='noti notih' onclick='noti()'>Đọc thông báo nhiệm vụ ở đây!</button>
@@ -137,7 +135,7 @@
 				<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
 					<span>Web1s lần 4</span>
 				</button>
-				<button type="button" onclick="web1s_4()" class="w1s" id='w1s5' disabled>
+				<button type="button" onclick="web1s_5()" class="w1s" id='w1s5' disabled>
 					<span>Web1s lần 5</span>
 				</button>
 			</div>
@@ -159,7 +157,7 @@
 			</div>
 			<div class="container">
 				<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
-				<button class="gg" type="button" id='gg' onclick='<?php include 'api.php';?>' ><span>Ggoklink</span></button>
+				<button class="gg" type="button" id='gg' onclick="ggoklink()" ><span>Ggoklink</span></button>
 			</div>
 			<div class="container">
 				<button class="bb" type="button" id='bb1' onclick="bb1()" disabled><span>Bitlybox lần 1</span></button>
