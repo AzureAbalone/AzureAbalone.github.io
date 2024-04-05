@@ -106,7 +106,13 @@
 
 <body>
     <?php
-        echo "Hello from PHP!";
+        if(array_key_exists('b1', $_POST)) { 
+            button1(); 
+        } 
+        else {} 
+        function button1() { 
+            echo "This is Button1 that is selected"; 
+        }
     ?> 
 	<form action="" method="post">
 		<input type="submit" value="B1" name='b1'>
