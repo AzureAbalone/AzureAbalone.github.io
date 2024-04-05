@@ -1071,18 +1071,5 @@ function bb2() {
 	);
 	return false;
 }
-function noti() {
-	const banner = document.getElementById("banner");
-	const blur = document.getElementById("main");
-	const trigger = document.getElementById("trigger-noti");
-	if (banner.style.display === "none") {
-		banner.style.display = "block";
-		blur.style.filter = "blur(8px)";
-		trigger.innerHTML = "đóng";
-	} else {
-		banner.style.display = "none";
-		trigger.innerHTML = "đọc thông báo nhiệm vụ ở đây!";
-		blur.style.filter = "blur(0)";
-	}
-}
+
 
