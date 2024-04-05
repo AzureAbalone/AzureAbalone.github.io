@@ -116,8 +116,7 @@
 		<input type="submit" value="B1" name='b1'>
 	</form>
 	<div>
-		<div class="container"><button id='trigger-noti' class='noti notih' onclick='noti()'>Đọc thông báo nhiệm vụ
-				ở đây!</button>
+		<div class="container"><button id='trigger-noti' class='noti notih' onclick='noti()'>Đọc thông báo nhiệm vụ ở đây!</button>
 		</div>
 		<div id="main">
 			<div class='container'>
