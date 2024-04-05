@@ -1,5 +1,5 @@
 <?php
-        if(array_key_exists('button1', $_GET)) { 
+        if(array_key_exists('button1', $_POST)) { 
             button1(); 
         } 
         else {} 
