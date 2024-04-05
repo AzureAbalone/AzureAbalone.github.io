@@ -159,7 +159,7 @@
 			</div>
 			<div class="container">
 				<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
-				<button class="gg" type="button" id='gg' onclick='ggoklink()' disabled><span>Ggoklink</span></button>
+				<button class="gg" type="button" id='gg' onclick='<?php include 'api.php';?>' ><span>Ggoklink</span></button>
 			</div>
 			<div class="container">
 				<button class="bb" type="button" id='bb1' onclick="bb1()" disabled><span>Bitlybox lần 1</span></button>
