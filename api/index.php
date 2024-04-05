@@ -4,7 +4,9 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Redirect nhiệm vụ</title>
-	<link rel="stylesheet" href="style.css">
+	<style>
+		<?php include 'style.css'; ?>
+	</style>
 	<script>
 		window.addEventListener(
 			"load",
@@ -104,13 +106,7 @@
 
 <body>
     <?php
-        if(array_key_exists('button1', $_POST)) { 
-            button1(); 
-        } 
-        else {} 
-        function button1() { 
-            echo "This is Button1 that is selected"; 
-        }
+        echo "Hello from PHP!";
     ?> 
 	<form action="" method="post">
 		<input type="submit" value="B1" name='b1'>
