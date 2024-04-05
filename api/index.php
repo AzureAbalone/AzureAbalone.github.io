@@ -105,18 +105,6 @@
 </head>
 
 <body>
-    <?php
-        if(array_key_exists('b1', $_POST)) { 
-            button1(); 
-        } 
-        else {} 
-        function button1() { 
-            echo "This is Button1 that is selected"; 
-        }
-    ?> 
-	<form action="" method="post">
-		<input type="submit" value="B1" name='b1'>
-	</form>
 	<div>
 		<div class="container"><button id='trigger-noti' class='noti notih' onclick='noti()'>Đọc thông báo nhiệm vụ ở đây!</button>
 		</div>
