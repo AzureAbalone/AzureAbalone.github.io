@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
-
+<?php
 <head>
 	<meta charset="utf-8" />
 	<title>Redirect nhiệm vụ</title>
