@@ -170,12 +170,11 @@
 			</div>
 		</div>
 		<div class="noti" id='banner'>
-			<p>Mỗi IP làm nhiệm vụ 1 lần<br>
 				<strong>Lưu ý:</strong>
 			</p>
 			<ul>
 				<li>
-					Muốn làm thêm phải đổi ip và thiết bị khác (đổi mạng thì phải check ip xem đã đổi chưa)
+					Cứ 1 thiết bị 1 IP hoặc có 2 IP phải trình cho AD xác minh mới dc làm tiếp lần 2, còn muốn làm thêm lần 3 phải xin AD xác nhận
 				</li>
 				<li>
 					Check ip: <a href="https://whatismyipaddress.com/vi-vn/index" target='_blank'>Check IP</a> (check
