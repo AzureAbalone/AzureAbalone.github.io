@@ -1,5 +1,5 @@
 <?php
-fuction ggoklink(){
+{
     $name = "test";
     $api_token = 'fbaae39a-1773-4c8b-beeb-fa5ed858ae9a';
     $api_url = "https://web1s.com/note-api?token={$api_token}&content={$name}";
