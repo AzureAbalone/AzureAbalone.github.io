@@ -170,7 +170,7 @@
 			</div>
 		</div>
 		<div class="noti" id='banner'>
-			<p>Làm hết các nhiệm vụ rồi mà muốn làm tiếp thì bật 4g, làm hết = 4g r phải đổi máy và đổi IP nhé<br>
+			<p>Mỗi IP làm nhiệm vụ 1 lần<br>
 				<strong>Lưu ý:</strong>
 			</p>
 			<ul>
@@ -188,8 +188,7 @@
 					Teckurl chỉ cần chụp ảnh cuối
 				</li>
 				<li>
-					Web1s, bitlybox, teckurl, normal mọi người cứ làm xả láng nhé, ko cần phải đợi đến giờ làm nhé cũng
-					không cần chia thành viên.
+					Web1s, bitlybox, teckurl, normal mọi người cứ làm xả láng nhé, ko cần phải đợi đến giờ làm nhé cũng không cần chia thành viên.
 				</li>
 			</ul>
 			<p>
@@ -198,8 +197,7 @@
 				<a target='_blank'
 					href="https://docs.google.com/spreadsheets/d/1X6qNNhvibLyCD2rRrVBcRB4qEHdnR8MHYzjDpOW9Fqc/edit?usp=sharing">Bảng
 					xếp hạng</a> <br>
-				Làm xong chụp ảnh gửi ad <a href="https://t.me/Azure_Abalone" target='_blank'>Bào ngư</a>. Khi gửi phải
-				nói rõ làm máy 1, 2 hay 3 wifi hay 4g để ad check
+				Làm xong chụp ảnh gửi ad <a href="https://t.me/Azure_Abalone" target='_blank'>Bào ngư</a>. Khi gửi phải nói rõ làm máy 1, 2 hay 3 wifi hay 4g để ad check
 			</p>
 			<h3>1 tuần làm ít nhất 4000đ nhiệm vụ phụ, ai không làm đủ ad không bank. Bận không
 				làm
