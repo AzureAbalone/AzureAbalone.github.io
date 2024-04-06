@@ -24,7 +24,7 @@
 				// const w1s3 = document.getElementById("w1s3");
 				// const w1s4 = document.getElementById("w1s4");
 				// const w1s5 = document.getElementById("w1s5");
-				const ml = document.getElementById("ml");
+				// const ml = document.getElementById("ml");
 				const md = document.getElementById("md");
 				// const bb1 = document.getElementById("bb1");
 				// const bb2 = document.getElementById("bb2");
@@ -54,9 +54,9 @@
 						bl1.disabled = false;
 						bl1.style.backgroundColor = "#f5510b";
 						bl1.style.cursor = "pointer";
-						ml.disabled = false;
-						ml.style.backgroundColor = "rgb(196, 11, 17)";
-						ml.style.cursor = "pointer";
+						// ml.disabled = false;
+						// ml.style.backgroundColor = "rgb(196, 11, 17)";
+						// ml.style.cursor = "pointer";
 						db2.disabled = false;
 						db2.style.backgroundColor = "#25aae1";
 						db2.style.cursor = "pointer";
@@ -175,6 +175,9 @@
 			<ul>
 				<li>
 					Cứ 1 thiết bị 1 IP hoặc có 2 IP phải trình cho AD xác minh mới dc làm tiếp lần 2, còn muốn làm thêm lần 3 phải xin AD xác nhận
+				</li>
+				<li>
+					Không được bật tắt 4g trong lúc làm nhiệm vụ
 				</li>
 				<li>
 					Check ip: <a href="https://whatismyipaddress.com/vi-vn/index" target='_blank'>Check IP</a> (check
