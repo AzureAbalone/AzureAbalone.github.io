@@ -32,7 +32,7 @@ button:active>span {
 }
 
 button.db:active:after {
-    content: "150 🌾"
+    content: "120 🌾"
 }
 
 button.bl:active:after {
@@ -40,7 +40,7 @@ button.bl:active:after {
 }
 
 button.w1s:active:after {
-    content: "150 🌾"
+    content: "100 🌾"
 }
 
 button.ml:active:after {
@@ -56,7 +56,7 @@ button.nm:active:after {
 }
 
 button.mm:active:after {
-    content: "150 🌾"
+    content: "120 🌾"
 }
 
 button.tu:active:after {
@@ -76,7 +76,7 @@ button:hover>span {
 }
 
 button.db:hover:after {
-    content: "150 🌾"
+    content: "120 🌾"
 }
 
 button.bl:hover:after {
@@ -84,7 +84,7 @@ button.bl:hover:after {
 }
 
 button.w1s:hover:after {
-    content: "150 🌾"
+    content: "100 🌾"
 }
 
 button.ml:hover:after {
@@ -100,7 +100,7 @@ button.nm:hover:after {
 }
 
 button.mm:hover:after {
-    content: "150 🌾"
+    content: "120 🌾"
 }
 
 button.tu:hover:after {
@@ -168,7 +168,7 @@ div.noti {
     height: 100%;
     box-shadow: 0 0 10px #eee;
     display: none;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 h3 {
