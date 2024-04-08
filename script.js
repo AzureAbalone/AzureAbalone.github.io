@@ -967,7 +967,8 @@ function directblitly_1() {
 		body: JSON.stringify(paste)
 	})
 		.then(res => res.json())
-		.then(data => this.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id)));
+		.then(data => direct_blitly_1_sites.push('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id)));
+	window.open(direct_blitly_1_sites[0])
 	return false;
 }
 function directblitly_2() {
