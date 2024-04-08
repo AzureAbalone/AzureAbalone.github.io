@@ -44,7 +44,7 @@ button.w1s:active:after {
 }
 
 button.ml:active:after {
-    content: "250 🌾"
+    content: "200 🌾"
 }
 
 button.md:active:after {
@@ -68,7 +68,7 @@ button.gg:active:after {
 }
 
 button.bb:active:after {
-    content: "300 🌾"
+    content: "250 🌾"
 }
 
 button:hover>span {
@@ -88,11 +88,11 @@ button.w1s:hover:after {
 }
 
 button.ml:hover:after {
-    content: "250 🌾"
+    content: "200 🌾"
 }
 
 button.md:hover:after {
-    content: "200 🌾"
+    content: "150 🌾"
 }
 
 button.nm:hover:after {
@@ -108,7 +108,7 @@ button.tu:hover:after {
 }
 
 button.bb:hover:after {
-    content: "300 🌾"
+    content: "250 🌾"
 }
 
 button.gg:hover:after {
