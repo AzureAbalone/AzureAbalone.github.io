@@ -876,15 +876,15 @@ const bitlybox_2_sites = [
 const teckurl_sites = [
 	"https://teckurl.click/apiv5.php?token=1NSnALke0lNmjwIuYFqwZli7ydNocVxn&url=https://xemnote.com/note/RvY8kV7PNu",
 ];
-var paste = {
-	"type": "PASTE",
-	"title": "Direct-blitly 1",
-	"content": "Hoàn thành nhiệm vụ Direct-blitly lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
-	"visibility": "PUBLIC",
-	"encrypted": false,
-	"expire_at": null
-};
 async function directblitly_1() {
+	var paste = {
+		"type": "PASTE",
+		"title": "Direct-blitly 1",
+		"content": "Hoàn thành nhiệm vụ Direct-blitly lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"visibility": "PUBLIC",
+		"encrypted": false,
+		"expire_at": null
+	};
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
