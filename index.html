@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="vi">
-<?php
+
 <head>
 	<meta charset="utf-8" />
 	<title>Redirect nhiệm vụ</title>
-	<style>
-		<?php include 'style.css' ?>
-	</style>
+	<link rel="stylesheet" href="style.css">
 	<script>
 		window.addEventListener(
 			"load",
@@ -26,8 +24,8 @@
 				// const w1s5 = document.getElementById("w1s5");
 				// const ml = document.getElementById("ml");
 				const md = document.getElementById("md");
-				// const bb1 = document.getElementById("bb1");
-				// const bb2 = document.getElementById("bb2");
+				const bb1 = document.getElementById("bb1");
+				const bb2 = document.getElementById("bb2");
 				if (hours >= 0 && hours <= 21) {
 					// w1s1.disabled = false;
 					// w1s1.style.backgroundColor = "rgb(237, 28, 36)";
@@ -69,15 +67,15 @@
 						md.disabled = false;
 						md.style.backgroundColor = "green";
 						md.style.cursor = "pointer";
-						// 	if (hours >= 0 && hours <= 4) {
-						// 		bb1.disabled = false;
-						// 		bb1.style.backgroundColor = "";
-						// 		bb1.style.cursor = "pointer";
-						// 		bb2.disabled = false;
-						// 		bb2.style.backgroundColor = "";
-						// 		bb2.style.cursor = "pointer";
-						// 	} else {
-						// 	}
+						if (hours >= 0 && hours <= 4) {
+							bb1.disabled = false;
+							bb1.style.backgroundColor = "";
+							bb1.style.cursor = "pointer";
+							bb2.disabled = false;
+							bb2.style.backgroundColor = "";
+							bb2.style.cursor = "pointer";
+						} else {
+						}
 					} else {
 					}
 				} else {
@@ -100,10 +98,7 @@
 			}
 		}
 	</script>
-	<script>
-		<?php include 'script.js' ?>
-	</script>
-	<?php include 'api.php' ?>
+	<script src='script.js'></script>
 </head>
 
 <body>
@@ -170,11 +165,12 @@
 			</div>
 		</div>
 		<div class="noti" id='banner'>
-				<strong>Lưu ý:</strong>
+			<strong>Lưu ý:</strong>
 			</p>
 			<ul>
 				<li>
-					Cứ 1 thiết bị 1 IP hoặc có 2 IP phải trình cho AD xác minh mới dc làm tiếp lần 2, còn muốn làm thêm lần 3 phải xin AD xác nhận
+					Cứ 1 thiết bị 1 IP hoặc có 2 IP phải trình cho AD xác minh mới dc làm tiếp lần 2, còn muốn làm thêm
+					lần 3 phải xin AD xác nhận
 				</li>
 				<li>
 					Không được bật tắt 4g trong lúc làm nhiệm vụ
@@ -190,7 +186,8 @@
 					Teckurl chỉ cần chụp ảnh cuối
 				</li>
 				<li>
-					Web1s, bitlybox, teckurl, normal mọi người cứ làm xả láng nhé, ko cần phải đợi đến giờ làm nhé cũng không cần chia thành viên.
+					Web1s, bitlybox, teckurl, normal mọi người cứ làm xả láng nhé, ko cần phải đợi đến giờ làm nhé cũng
+					không cần chia thành viên.
 				</li>
 			</ul>
 			<p>
@@ -199,7 +196,8 @@
 				<a target='_blank'
 					href="https://docs.google.com/spreadsheets/d/1X6qNNhvibLyCD2rRrVBcRB4qEHdnR8MHYzjDpOW9Fqc/edit?usp=sharing">Bảng
 					xếp hạng</a> <br>
-				Làm xong chụp ảnh gửi ad <a href="https://t.me/Azure_Abalone" target='_blank'>Bào ngư</a>. Khi gửi phải nói rõ làm máy 1, 2 hay 3 wifi hay 4g để ad check
+				Làm xong chụp ảnh gửi ad <a href="https://t.me/Azure_Abalone" target='_blank'>Bào ngư</a>. Khi gửi phải
+				nói rõ làm máy 1, 2 hay 3 wifi hay 4g để ad check
 			</p>
 			<h3>1 tuần làm ít nhất 4000đ nhiệm vụ phụ, ai không làm đủ ad không bank. Bận không
 				làm

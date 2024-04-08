@@ -949,12 +949,25 @@ const teckurl_sites = [
 	"https://teckurl.click/apiv5.php?token=1NSnALke0lNmjwIuYFqwZli7ydNocVxn&url=https://xemnote.com/note/RvY8kV7PNu",
 ];
 function directblitly_1() {
-	window.open(
-		direct_blitly_1_sites[
-		Math.round(Math.random() * (direct_blitly_1_sites.length - 1))
-		]
-	);
-	return false;
+	var paste = {
+		"type": "PASTE",
+		"title": "Direct-blitly 1",
+		"content": "Hoàn thành nhiệm vụ Direct-blitly lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"visibility": "PUBLIC",
+		"encrypted": false,
+		"expire_at": null
+	}
+	fetch('https://anonm.my.eu.org/api/v2/paste', {
+		method: "POST",
+		headers: {
+			"Accept": "application/json",
+			"Content-Type": "application/json",
+			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+		},
+		body: JSON.stringify(paste)
+	})
+		.then(res => res.json())
+		.then(data => window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id)))
 }
 function directblitly_2() {
 	window.open(
