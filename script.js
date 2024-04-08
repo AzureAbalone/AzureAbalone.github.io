@@ -1,4 +1,3 @@
-const direct_blitly_1_sites = []
 const direct_blitly_2_sites = [
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/Xa9KKmpWFy",
 	"https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://xemnote.com/note/XogCawdFP1",
@@ -885,8 +884,9 @@ var paste = {
 	"encrypted": false,
 	"expire_at": null
 };
-function directblitly_1() {
-	fetch('https://anonm.my.eu.org/api/v2/paste', {
+async function directblitly_1() {
+	var id = 'initial'
+	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
 			"Accept": "application/json",
@@ -896,8 +896,8 @@ function directblitly_1() {
 		body: JSON.stringify(paste)
 	})
 		.then(res => res.json())
-		.then(data => direct_blitly_1_sites.push(data.paste.id));
-	window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(direct_blitly_1_sites.pop()))
+		.then(data => { id = data.paste.id });
+	window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(id))
 	return false;
 }
 function directblitly_2() {
