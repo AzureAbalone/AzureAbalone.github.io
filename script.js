@@ -905,9 +905,6 @@ function directblitly_1() {
 		});
 	return false;
 }
-function test(id) {
-	window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(id))
-}
 function directblitly_2() {
 	window.open(
 		direct_blitly_2_sites[
