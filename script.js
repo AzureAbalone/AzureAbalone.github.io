@@ -886,7 +886,7 @@ var paste = {
 };
 function test(id) {
 	const a = document.createElement("a");
-	a.setAttribute('target', '_blank');
+	a.setAttribute("target", '_blank');
 	a.setAttribute("href", 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(id));
 	document.body.appendChild(a);
 	a.click();
