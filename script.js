@@ -884,16 +884,7 @@ var paste = {
 	"encrypted": false,
 	"expire_at": null
 };
-function test(id) {
-	const a = document.createElement("a");
-	a.setAttribute("target", '_blank');
-	a.setAttribute("href", 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(id));
-	document.body.appendChild(a);
-	a.click();
-	document.body.removeChild(a);
-}
 function directblitly_1() {
-	var id = 'initial'
 	fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -904,8 +895,14 @@ function directblitly_1() {
 		body: JSON.stringify(paste)
 	})
 		.then(res => res.json())
-		.then(data => test(data.paste.id));
-
+		.then(data => {
+			const a = document.createElement("a");
+			a.setAttribute("href", 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id));
+			a.setAttribute("target", '_blank')
+			document.body.appendChild(a);
+			a.click();
+			document.body.removeChild(a);
+		});
 	return false;
 }
 function test(id) {
