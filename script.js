@@ -884,6 +884,7 @@ var paste = {
 	"encrypted": false,
 	"expire_at": null
 };
+var redirect = window.open();
 async function directblitly_1() {
 	var id = 'initial'
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
@@ -897,7 +898,11 @@ async function directblitly_1() {
 	})
 		.then(res => res.json())
 		.then(data => { id = data.paste.id });
-	test(id)
+	const a = document.createElement("a");
+	a.setAttribute("href", 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(id));
+	document.body.appendChild(a);
+	a.click();
+	document.body.removeChild(a);
 	return false;
 }
 function test(id) {
