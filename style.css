@@ -71,6 +71,10 @@ button.bb:active:after {
     content: "250 🌾"
 }
 
+button.l1m:active:after {
+    content: "300 🌾"
+}
+
 button:hover>span {
     display: none;
 }
@@ -109,6 +113,10 @@ button.tu:hover:after {
 
 button.bb:hover:after {
     content: "250 🌾"
+}
+
+button.l1m:hover:after {
+    content: "300 🌾"
 }
 
 button.gg:hover:after {

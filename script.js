@@ -468,5 +468,55 @@ async function bb2() {
 		});
 	return false;
 }
-
-
+async function link1m1() {
+	var paste = {
+		"type": "PASTE",
+		"title": "Link1m 1",
+		"content": "Hoàn thành nhiệm vụ Link1m lần 1\nGửi ảnh ngay cho ad để được cộng 300🌾",
+		"visibility": "PUBLIC",
+		"encrypted": false,
+		"expire_at": null
+	};
+	await fetch('https://anonm.my.eu.org/api/v2/paste', {
+		method: "POST",
+		headers: {
+			"Accept": "application/json",
+			"Content-Type": "application/json",
+			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+		},
+		body: JSON.stringify(paste)
+	})
+		.then(res => res.json())
+		.then(data => {
+			setTimeout(() => {
+				window.open('https://link1m.com/st?api=20014dc205acb4e0a954dc74634835d36458d560&url=https://anonm.my.eu.org/' + String(data.paste.id), '_blank');
+			});
+		});
+	return false;
+}
+async function link1m2() {
+	var paste = {
+		"type": "PASTE",
+		"title": "Link1m 1",
+		"content": "Hoàn thành nhiệm vụ Link1m lần 2\nGửi ảnh ngay cho ad để được cộng 300🌾",
+		"visibility": "PUBLIC",
+		"encrypted": false,
+		"expire_at": null
+	};
+	await fetch('https://anonm.my.eu.org/api/v2/paste', {
+		method: "POST",
+		headers: {
+			"Accept": "application/json",
+			"Content-Type": "application/json",
+			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+		},
+		body: JSON.stringify(paste)
+	})
+		.then(res => res.json())
+		.then(data => {
+			setTimeout(() => {
+				window.open('https://link1m.com/st?api=20014dc205acb4e0a954dc74634835d36458d560&url=https://anonm.my.eu.org/' + String(data.paste.id), '_blank');
+			});
+		});
+	return false;
+}
