@@ -1,4 +1,4 @@
-var open = window_open();
+var open = window.open();
 
 function directblitly_1() {
 	let paste = {
