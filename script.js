@@ -1,4 +1,4 @@
-async function directblitly_1() {
+function directblitly_1() {
 	var paste = {
 		"type": "PASTE",
 		"title": "Direct-blitly 1",
@@ -7,8 +7,7 @@ async function directblitly_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
-	var id = 1;
-	await fetch('https://anonm.my.eu.org/api/v2/paste', {
+	fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
 			"Accept": "application/json",
@@ -18,8 +17,11 @@ async function directblitly_1() {
 		body: JSON.stringify(paste)
 	})
 		.then(res => res.json())
-		.then(data => { id = data.paste.id });
-	window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(id), '_blank');
+		.then(data => {
+			setTimeout(() => {
+				window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id), '_blank');
+			});
+		});
 	return false;
 }
 async function directblitly_2() {
