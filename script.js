@@ -1,4 +1,4 @@
-async function directblitly_1() {
+function directblitly_1() {
 	var paste = {
 		"type": "PASTE",
 		"title": "Direct-blitly 1",
@@ -7,7 +7,7 @@ async function directblitly_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
-	await fetch('https://anonm.my.eu.org/api/v2/paste', {
+	fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
 			"Accept": "application/json",
