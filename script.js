@@ -12,7 +12,7 @@ async function directblitly_1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -38,7 +38,7 @@ async function directblitly_2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -64,7 +64,7 @@ async function blitly_1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -90,7 +90,7 @@ async function blitly_2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -116,7 +116,7 @@ async function web1s_1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -142,7 +142,7 @@ async function web1s_2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -168,7 +168,7 @@ async function web1s_3() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -194,7 +194,7 @@ async function web1s_4() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -220,7 +220,7 @@ async function web1s_5() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -246,7 +246,7 @@ async function mneylink() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -272,7 +272,7 @@ async function mneydrec() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -298,7 +298,7 @@ async function normal_1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -324,7 +324,7 @@ async function normal_2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -350,7 +350,7 @@ async function memelink_1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -376,7 +376,7 @@ async function memelink_2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -402,7 +402,7 @@ async function teckurl() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -430,7 +430,7 @@ async function bb1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -456,7 +456,7 @@ async function bb2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -482,7 +482,7 @@ async function link1m1() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
@@ -508,7 +508,7 @@ async function link1m2() {
 		headers: {
 			"Accept": "application/json",
 			"Content-Type": "application/json",
-			"Authorization": "Bearer ThM6g70g1MqOvnBE5D9wFcLzw5cwYCxgIo7dxPheMVOaWZXiMPe8ZjywRgIY"
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
 		},
 		body: JSON.stringify(paste)
 	})
