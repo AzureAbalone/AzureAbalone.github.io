@@ -1,4 +1,3 @@
-var open = window.open();
 
 function directblitly_1() {
 	let paste = {
@@ -9,6 +8,9 @@ function directblitly_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+	
+	var open = window.open();
+
 	fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -35,6 +37,9 @@ async function directblitly_2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -61,6 +66,9 @@ async function blitly_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -87,6 +95,9 @@ async function blitly_2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -113,6 +124,9 @@ async function web1s_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -139,6 +153,9 @@ async function web1s_2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -165,6 +182,9 @@ async function web1s_3() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -191,6 +211,9 @@ async function web1s_4() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -217,6 +240,9 @@ async function web1s_5() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -243,6 +269,9 @@ async function mneylink() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -269,6 +298,9 @@ async function mneydrec() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -295,6 +327,9 @@ async function normal_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -321,6 +356,9 @@ async function normal_2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -347,6 +385,9 @@ async function memelink_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -373,6 +414,9 @@ async function memelink_2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -399,6 +443,9 @@ async function teckurl() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -427,6 +474,9 @@ async function bb1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -453,6 +503,9 @@ async function bb2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -479,6 +532,9 @@ async function link1m1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -505,6 +561,9 @@ async function link1m2() {
 		"encrypted": false,
 		"expire_at": null
 	};
+
+	var open = window.open();
+
 	await fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
