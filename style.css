@@ -75,6 +75,18 @@ button.l1m:active:after {
     content: "300 🌾"
 }
 
+button.trau:active:after {
+    content: "100 🌾"
+}
+
+button.tra123:active:after {
+    content: "100 🌾"
+}
+
+button.l68:active:after {
+    content: "100 🌾"
+}
+
 button:hover>span {
     display: none;
 }
@@ -123,12 +135,26 @@ button.gg:hover:after {
     content: "?? 🌾"
 }
 
+button.trau:hover:after {
+    content: "100 🌾"
+}
+
+button.tra123:hover:after {
+    content: "100 🌾"
+}
+
+button.l68:hover:after {
+    content: "100 🌾"
+}
+
 .nm {
     background-color: rgb(237, 28, 36);
 }
 
 .nm,
-.tu {
+.tu,
+.tra123,
+.trau {
     cursor: pointer;
 }
 
@@ -136,9 +162,14 @@ button.gg:hover:after {
     background-color: purple;
 }
 
-.gg {
+.gg,
+.l68 {
     border: 1px solid gray;
     color: white;
+    background-color: gray;
+}
+
+.trau {
     background-color: gray;
 }
 

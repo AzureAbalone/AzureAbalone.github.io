@@ -28,6 +28,9 @@
 				const bb2 = document.getElementById("bb2");
 				const link1m1 = document.getElementById("link1m1");
 				const link1m2 = document.getElementById("link1m2");
+				const l68 = document.getElementById("l68");
+				const tra123 = document.getElementById("tra123");
+				const trau = document.getElementById("trau");
 				if (hours >= 0 && hours <= 20) {
 					w1s1.disabled = false;
 					w1s1.style.backgroundColor = "rgb(237, 28, 36)";
@@ -44,6 +47,9 @@
 					w1s5.disabled = false;
 					w1s5.style.backgroundColor = "rgb(237, 28, 36)";
 					w1s5.style.cursor = "pointer";
+					tra123.disabled = false;
+					tra123.style.backgroundColor = "#e8584f";
+					tra123.style.cursor = "pointer";
 					// link1m1.disabled = false;
 					// link1m1.style.backgroundColor = "";
 					// link1m1.style.cursor = "pointer";
@@ -75,6 +81,9 @@
 						md.disabled = false;
 						md.style.backgroundColor = "green";
 						md.style.cursor = "pointer";
+						trau.disabled = false;
+						trau.style.backgroundColor = "";
+						trau.style.cursor = "pointer";
 						if (hours >= 0 && hours <= 2) {
 							bb1.disabled = false;
 							bb1.style.backgroundColor = "";
@@ -176,6 +185,13 @@
 						1</span></button>
 				<button class="l1m" type="button" id='link1m2' onclick='link1m2()' disabled><span>Link1m lần
 						2</span></button>
+			</div>
+			<div class="container">
+				<button class="tra123" type="button" id='tra123' onclick="link1m1()" disabled><span>Traffic
+						123</span></button>
+				<button class="trau" type="button" id='trau' onclick='link1m2()' disabled><span>Traffic
+						User</span></button>
+				<button class="l68" type="button" id='l68' onclick='link1m2()' disabled><span>Link 68</span></button>
 			</div>
 		</div>
 		<div class="noti" id='banner'>
