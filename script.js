@@ -21,7 +21,7 @@ function directblitly_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://direct.blitly.io/st?apikey=21b371652f644baa84f9d474d1834381&url=https://anonm.my.eu.org/'+String(data.paste.id);
+			open.location = 'https://direct.blitly.io/st?apikey=21b371652f644baa84f9d474d1834381&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -48,7 +48,7 @@ async function directblitly_2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -75,7 +75,7 @@ async function blitly_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -102,7 +102,7 @@ async function blitly_2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://blitly.io/st?apikey=408a8f82bd8c4438b2470139c9ec62d3&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -129,7 +129,7 @@ async function web1s_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=e2a9c028-b032-437a-8a2f-129da76cd349&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=e2a9c028-b032-437a-8a2f-129da76cd349&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -156,7 +156,7 @@ async function web1s_2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=e2a9c028-b032-437a-8a2f-129da76cd349&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=e2a9c028-b032-437a-8a2f-129da76cd349&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -183,7 +183,7 @@ async function web1s_3() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -210,7 +210,7 @@ async function web1s_4() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -237,7 +237,7 @@ async function web1s_5() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -264,7 +264,7 @@ async function mneylink() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -291,7 +291,7 @@ async function mneydrec() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://mneydirec.com/st?api=b11f8df7f33bf77811f0fd939fb4f232164fa741&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -318,7 +318,7 @@ async function normal_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=cd7d7d71-620e-4c43-a241-000d9271e4ab&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=cd7d7d71-620e-4c43-a241-000d9271e4ab&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -345,7 +345,7 @@ async function normal_2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://web1s.com/st?token=cd7d7d71-620e-4c43-a241-000d9271e4ab&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://web1s.com/st?token=cd7d7d71-620e-4c43-a241-000d9271e4ab&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -372,7 +372,7 @@ async function memelink_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -399,7 +399,7 @@ async function memelink_2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://memelink.net/st?apikey=ab47a395005e48e0b43fed1076063bf8&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -426,7 +426,7 @@ async function teckurl() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://teckurl.click/apiv1.php?token=1NSnALke0lNmjwIuYFqwZli7ydNocVxn&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://teckurl.click/apiv1.php?token=1NSnALke0lNmjwIuYFqwZli7ydNocVxn&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -455,7 +455,7 @@ async function bb1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://bitlybox.com/api/v1/short-link/ql?token=V16vUYZgxu147omJE275Z9SlpKI8ZCGi&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://bitlybox.com/api/v1/short-link/ql?token=V16vUYZgxu147omJE275Z9SlpKI8ZCGi&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -482,7 +482,7 @@ async function bb2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://bitlybox.com/api/v1/short-link/ql?token=V16vUYZgxu147omJE275Z9SlpKI8ZCGi&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://bitlybox.com/api/v1/short-link/ql?token=V16vUYZgxu147omJE275Z9SlpKI8ZCGi&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -509,7 +509,7 @@ async function link1m1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://link1m.com/st?api=20014dc205acb4e0a954dc74634835d36458d560&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://link1m.com/st?api=20014dc205acb4e0a954dc74634835d36458d560&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -536,7 +536,7 @@ async function link1m2() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://link1m.com/st?api=20014dc205acb4e0a954dc74634835d36458d560&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://link1m.com/st?api=20014dc205acb4e0a954dc74634835d36458d560&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -563,7 +563,7 @@ async function trau() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://my.trafficuser.net/st?api=923ca52bee07d1c687c5dde213210ced3ca25221&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://my.trafficuser.net/st?api=923ca52bee07d1c687c5dde213210ced3ca25221&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -590,7 +590,7 @@ async function tra123() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://traffic123.net/st?api=c057fff3e2f9200e7cf47691b6f8fef87c54ae26&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://traffic123.net/st?api=c057fff3e2f9200e7cf47691b6f8fef87c54ae26&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
@@ -617,7 +617,7 @@ async function l68() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://link68.net/st?api=220c824d05eb17061fd5f1eb615d4da31f7c65ec&url=https://anonm.my.eu.org/${data.paste.id}';
+			open.location = 'https://link68.net/st?api=220c824d05eb17061fd5f1eb615d4da31f7c65ec&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
