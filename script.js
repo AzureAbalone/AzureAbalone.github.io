@@ -19,9 +19,9 @@ function directblitly_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			setTimeout(() => {
+			// setTimeout(() => {
 				open.location(`https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/${data.paste.id}`, '_blank');
-			});
+			// });
 		});
 	return false;
 }
