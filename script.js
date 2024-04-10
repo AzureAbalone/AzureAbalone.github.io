@@ -7,6 +7,7 @@ function directblitly_1() {
 		"encrypted": false,
 		"expire_at": null
 	};
+	var open = window.open()
 	fetch('https://anonm.my.eu.org/api/v2/paste', {
 		method: "POST",
 		headers: {
@@ -19,7 +20,7 @@ function directblitly_1() {
 		.then(res => res.json())
 		.then(data => {
 			setTimeout(() => {
-				window.open('https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id), '_blank');
+				open.location(`https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/${data.paste.id}`, '_blank');
 			});
 		});
 	return false;
