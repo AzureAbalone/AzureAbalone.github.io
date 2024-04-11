@@ -568,30 +568,7 @@ async function trau() {
 	return false;
 }
 async function tra123() {
-	let paste = {
-		"type": "PASTE",
-		"title": "Traffic123",
-		"content": "Hoàn thành nhiệm vụ Traffic123\nGửi ảnh ngay cho ad để được cộng 100🌾",
-		"visibility": "PUBLIC",
-		"encrypted": false,
-		"expire_at": null
-	};
-
-	var open = window.open();
-
-	await fetch('https://anonm.my.eu.org/api/v2/paste', {
-		method: "POST",
-		headers: {
-			"Accept": "application/json",
-			"Content-Type": "application/json",
-			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
-		},
-		body: JSON.stringify(paste)
-	})
-		.then(res => res.json())
-		.then(data => {
-			open.location = 'https://traffic123.net/st?api=c057fff3e2f9200e7cf47691b6f8fef87c54ae26&url=https://anonm.my.eu.org/' + String(data.paste.id);
-		});
+ window.open('https://my.trafficuser.net/P23hRIU');
 	return false;
 }
 async function l68() {
