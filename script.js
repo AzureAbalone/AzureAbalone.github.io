@@ -2,7 +2,7 @@ function directblitly_1() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Direct-blitly 1",
-		"content": "Hoàn thành nhiệm vụ Direct-blitly lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"content": "Hoàn thành nhiệm vụ Direct-blitly lần 1\nGửi ảnh ngay cho ad để được cộng 130🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -29,7 +29,7 @@ async function directblitly_2() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Direct-blitly 2",
-		"content": "Hoàn thành nhiệm vụ Direct-blitly lần 2\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"content": "Hoàn thành nhiệm vụ Direct-blitly lần 2\nGửi ảnh ngay cho ad để được cộng 130🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -110,7 +110,7 @@ async function web1s_1() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Web1s 1",
-		"content": "Hoàn thành nhiệm vụ Web1s lần 1\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Web1s lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -137,7 +137,7 @@ async function web1s_2() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Web1s 2",
-		"content": "Hoàn thành nhiệm vụ Web1s lần 2\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Web1s lần 2\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -164,7 +164,7 @@ async function web1s_3() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Web1s 3",
-		"content": "Hoàn thành nhiệm vụ Web1s lần 3\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Web1s lần 3\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -191,7 +191,7 @@ async function web1s_4() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Web1s 4",
-		"content": "Hoàn thành nhiệm vụ Web1s lần 4\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Web1s lần 4\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -218,7 +218,7 @@ async function web1s_5() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Web1s 5",
-		"content": "Hoàn thành nhiệm vụ Web1s lần 5\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Web1s lần 5\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -272,7 +272,7 @@ async function mneydrec() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Mneydirec",
-		"content": "Hoàn thành nhiệm vụ Mneydirec\nGửi ảnh ngay cho ad để được cộng 150🌾",
+		"content": "Hoàn thành nhiệm vụ Mneydirec\nGửi ảnh ngay cho ad để được cộng 200🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -353,7 +353,7 @@ async function memelink_1() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Memelink 1",
-		"content": "Hoàn thành nhiệm vụ Memelink lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"content": "Hoàn thành nhiệm vụ Memelink lần 1\nGửi ảnh ngay cho ad để được cộng 130🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -380,7 +380,7 @@ async function memelink_2() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Memelink 2",
-		"content": "Hoàn thành nhiệm vụ Memelink lần 2\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"content": "Hoàn thành nhiệm vụ Memelink lần 2\nGửi ảnh ngay cho ad để được cộng 130🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -436,7 +436,7 @@ async function bb1() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Bitlybox 1",
-		"content": "Hoàn thành nhiệm vụ Bitlybox lần 1\nGửi ảnh ngay cho ad để được cộng 250🌾",
+		"content": "Hoàn thành nhiệm vụ Bitlybox lần 1\nGửi ảnh ngay cho ad để được cộng 300🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -463,7 +463,7 @@ async function bb2() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Bitlybox 2",
-		"content": "Hoàn thành nhiệm vụ Bitlybox lần 2\nGửi ảnh ngay cho ad để được cộng 250🌾",
+		"content": "Hoàn thành nhiệm vụ Bitlybox lần 2\nGửi ảnh ngay cho ad để được cộng 300🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null

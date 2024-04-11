@@ -15,7 +15,7 @@ button {
     margin-bottom: 20px;
     margin-right: 20px;
     width: 300px;
-    height: 100px;
+    height: 120px;
     border-radius: 50px;
     font-size: 25px;
     font-weight: bold;
@@ -32,7 +32,7 @@ button:active>span {
 }
 
 button.db:active:after {
-    content: "120 🌾"
+    content: "130 🌾"
 }
 
 button.bl:active:after {
@@ -40,7 +40,7 @@ button.bl:active:after {
 }
 
 button.w1s:active:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button.ml:active:after {
@@ -56,7 +56,7 @@ button.nm:active:after {
 }
 
 button.mm:active:after {
-    content: "120 🌾"
+    content: "130 🌾"
 }
 
 button.tu:active:after {
@@ -68,7 +68,7 @@ button.gg:active:after {
 }
 
 button.bb:active:after {
-    content: "250 🌾"
+    content: "300 🌾"
 }
 
 button.l1m:active:after {
@@ -76,15 +76,15 @@ button.l1m:active:after {
 }
 
 button.trau:active:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button.tra123:active:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button.l68:active:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button:hover>span {
@@ -92,7 +92,7 @@ button:hover>span {
 }
 
 button.db:hover:after {
-    content: "120 🌾"
+    content: "130 🌾"
 }
 
 button.bl:hover:after {
@@ -100,7 +100,7 @@ button.bl:hover:after {
 }
 
 button.w1s:hover:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button.ml:hover:after {
@@ -116,7 +116,7 @@ button.nm:hover:after {
 }
 
 button.mm:hover:after {
-    content: "120 🌾"
+    content: "130 🌾"
 }
 
 button.tu:hover:after {
@@ -124,7 +124,7 @@ button.tu:hover:after {
 }
 
 button.bb:hover:after {
-    content: "250 🌾"
+    content: "300 🌾"
 }
 
 button.l1m:hover:after {
@@ -136,15 +136,15 @@ button.gg:hover:after {
 }
 
 button.trau:hover:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button.tra123:hover:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 button.l68:hover:after {
-    content: "100 🌾"
+    content: "120 🌾"
 }
 
 .nm {
@@ -152,9 +152,7 @@ button.l68:hover:after {
 }
 
 .nm,
-.tu,
-.tra123,
-.trau {
+.tu {
     cursor: pointer;
 }
 
@@ -169,17 +167,13 @@ button.l68:hover:after {
     background-color: gray;
 }
 
-.trau {
-    background-color: gray;
-}
-
 .container {
     display: flex;
 }
 
 button.noti {
-    width: 100%;
-    background: linear-gradient(to right, rgba(117, 123, 200, 1) 10%, rgba(129, 135, 220, 1) 20%, rgba(142, 148, 242, 1) 30%, rgba(159, 160, 255, 1) 40%, rgba(173, 167, 255, 1) 50%, rgba(187, 173, 255, 1) 60%, rgba(203, 178, 254, 1) 70%, rgba(218, 182, 252, 1) 80%, rgba(221, 189, 252, 1) 90%, rgba(224, 195, 252, 1) 100%);
+    width: 120%;
+    background: linear-gradient(to right, rgba(117, 123, 200, 1) 10%, rgba(129, 135, 220, 1) 20%, rgba(142, 148, 242, 1) 30%, rgba(159, 160, 255, 1) 40%, rgba(173, 167, 255, 1) 50%, rgba(187, 173, 255, 1) 60%, rgba(203, 178, 254, 1) 70%, rgba(218, 182, 252, 1) 80%, rgba(221, 189, 252, 1) 90%, rgba(224, 195, 252, 1) 120%);
     cursor: pointer;
     transition: 0.5s;
     background-size: 200% auto;
@@ -204,7 +198,7 @@ div.noti {
     border-radius: 20px;
     border: 1px solid;
     width: 1300px;
-    height: 100%;
+    height: 120%;
     box-shadow: 0 0 10px #eee;
     display: none;
     background-color: rgba(0, 0, 0, 0.3);
