@@ -544,7 +544,7 @@ async function tra123() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Trafficuser",
-		"content": "Hoàn thành nhiệm vụ Traffic123\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Traffic123\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
