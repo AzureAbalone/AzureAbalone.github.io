@@ -237,6 +237,33 @@ async function web1s_5() {
 	})
 		.then(res => res.json())
 		.then(data => {
+			open.location = 'https://web1s.com/st?token=e2a9c028-b032-437a-8a2f-129da76cd349&url=https://anonm.my.eu.org/' + String(data.paste.id);
+		});
+	return false;
+}
+async function web1s_6() {
+	let paste = {
+		"type": "PASTE",
+		"title": "Web1s 6",
+		"content": "Hoàn thành nhiệm vụ Web1s lần 6\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"visibility": "PUBLIC",
+		"encrypted": false,
+		"expire_at": null
+	};
+
+	var open = window.open();
+
+	await fetch('https://anonm.my.eu.org/api/v2/paste', {
+		method: "POST",
+		headers: {
+			"Accept": "application/json",
+			"Content-Type": "application/json",
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
+		},
+		body: JSON.stringify(paste)
+	})
+		.then(res => res.json())
+		.then(data => {
 			open.location = 'https://web1s.com/st?token=fc7f2e14-c0a8-42cd-9036-04c3a32cd3cc&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
