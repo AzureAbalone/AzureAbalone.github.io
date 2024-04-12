@@ -31,6 +31,14 @@
 				const l68 = document.getElementById("l68");
 				const tra123 = document.getElementById("tra123");
 				const trau = document.getElementById("trau");
+				if (hours >= 16 && hours <= 22) {
+					mm1.disabled = false;
+					mm1.style.cursor = "pointer";
+					mm1.style.backgroundColor = "rgb(237, 28, 36)";
+					mm2.disabled = false;
+					mm2.style.cursor = "pointer";
+					mm2.style.backgroundColor = "rgb(237, 28, 36)";
+				} else { };
 				if (hours >= 0 && hours <= 20) {
 					w1s1.disabled = false;
 					w1s1.style.backgroundColor = "rgb(237, 28, 36)";
@@ -63,9 +71,6 @@
 						db1.disabled = false;
 						db1.style.backgroundColor = "#25aae1";
 						db1.style.cursor = "pointer";
-						mm1.disabled = false;
-						mm1.style.cursor = "pointer";
-						mm1.style.backgroundColor = "rgb(237, 28, 36)";
 						bl1.disabled = false;
 						bl1.style.backgroundColor = "#f5510b";
 						bl1.style.cursor = "pointer";
@@ -75,9 +80,6 @@
 						db2.disabled = false;
 						db2.style.backgroundColor = "#25aae1";
 						db2.style.cursor = "pointer";
-						mm2.disabled = false;
-						mm2.style.cursor = "pointer";
-						mm2.style.backgroundColor = "rgb(237, 28, 36)";
 						bl2.disabled = false;
 						bl2.style.backgroundColor = "#f5510b";
 						bl2.style.cursor = "pointer";
