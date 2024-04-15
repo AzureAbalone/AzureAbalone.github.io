@@ -21,7 +21,7 @@ function directblitly_1() {
 	})
 		.then(res => res.json())
 		.then(data => {
-			open.location = 'https://direct.blitly.io/st?apikey=21b371652f644baa84f9d474d1834381&url=https://anonm.my.eu.org/' + String(data.paste.id);
+			open.location = 'https://direct.blitly.io/st?apikey=0442c51ef5b242518f997712ab75cfd4&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }
