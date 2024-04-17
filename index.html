@@ -8,7 +8,7 @@
 	<script>
 		window.addEventListener(
 			"load",
-			function () {
+			function missions() {
 				const currentTime = new Date();
 				const hours = currentTime.getHours();
 				const db1 = document.getElementById("db1");
@@ -122,25 +122,47 @@
 				trigger.innerHTML = "đọc thông báo nhiệm vụ ở đây!";
 				blur.style.filter = "blur(0)";
 			}
-		}
+		};
+		setInterval(missions, 1000);
 	</script>
 	<script src='script.js'></script>
 </head>
 
 <body>
-	<div>
+	<div id="stars"></div>
+	<div id="stars2"></div>
+	<div id="stars3"></div>
+	<div style='justify-content: center;text-align: center;align-items: center;margin: 0 15%'>
 		<div class="container"><button id='trigger-noti' class='noti notih' onclick='noti()'>Đọc thông báo nhiệm vụ ở
 				đây!</button>
 		</div>
-		<div id="main">
-			<div class='container'>
+		<div id='main'>
+			<p style='margin:auto'>Nhiệm vụ mở từ 0h-1h sáng</p>
+			<div class="container">
+				<button class="bb" type="button" id='bb1' onclick="bb1()" disabled>
+					<span>Bitlybox lần 1</span>
+				</button>
+				<button class="bb" type="button" id='bb2' onclick='bb2()' disabled>
+					<span>Bitlybox lần 2</span>
+				</button>
+			</div>
+			<p style='margin:auto'>Nhiệm vụ mở từ 16h-23h</p>
+			<div class="container">
+				<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled>
+					<span>Memelink lần 1</span>
+				</button>
+				<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled>
+					<span>Memelink lần 2</span>
+				</button>
+			</div>
+			<p style='margin:auto'>Nhiệm vụ sẽ đóng lúc 19h</p>
+			<div class="container">
 				<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
 					<span>Direct-blitly lần 1</span>
-					<button type="button" onclick="directblitly_2()" class="db" id='db2' disabled>
-						<span>Direct-blitly lần 2</span>
-					</button>
-			</div>
-			<div class="container">
+				</button>
+				<button type="button" onclick="directblitly_2()" class="db" id='db2' disabled>
+					<span>Direct-blitly lần 2</span>
+				</button>
 				<button type="button" onclick="blitly_1()" class="bl" id='bl1' disabled>
 					<span>Blitly lần 1</span>
 				</button>
@@ -148,6 +170,18 @@
 					<span>Blitly lần 2</span>
 				</button>
 			</div>
+			<div class="container">
+				<button class="ml" type="button" onclick="mneylink()" id='ml' disabled>
+					<span>Mneylink</span>
+				</button>
+				<button class="md" type="button" onclick="mneydrec()" id='md' disabled>
+					<span>Mneydrec</span>
+				</button>
+				<button class="trau" type="button" id='trau' onclick='trau()' disabled>
+					<span>Traffic User</span>
+				</button>
+			</div>
+			<p style='margin:auto'>Nhiệm vụ sẽ đóng lúc 21h</p>
 			<div class="container">
 				<button type="button" onclick="web1s_1()" class="w1s" id='w1s1' disabled>
 					<span>Web1s lần 1</span>
@@ -161,48 +195,44 @@
 				<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
 					<span>Web1s lần 4</span>
 				</button>
+			</div>
+			<div class="container">
 				<button type="button" onclick="web1s_5()" class="w1s" id='w1s5' disabled>
 					<span>Web1s lần 5</span>
-					<button type="button" onclick="web1s_6()" class="w1s" id='w1s6' disabled>
-						<span>Web1s lần 6</span>
-					</button>
+				</button>
+				<button type="button" onclick="web1s_6()" class="w1s" id='w1s6' disabled>
+					<span>Web1s lần 6</span>
+				</button>
+				<button class="tra123" type="button" id='tra123' onclick="tra123()" disabled>
+					<span>Traffic 123</span>
+				</button>
 			</div>
+			<p style='margin:auto'>Nhiệm vụ mở 24/24</p>
 			<div class="container">
-				<button class="ml" type="button" onclick="mneylink()" id='ml' disabled><span>Mneylink</span></button>
-				<button class="md" type="button" onclick="mneydrec()" id='md' disabled><span>Mneydrec</span></button>
+				<button class="nm" type="button" onclick="normal_1()">
+					<span>Normal lần 1</span>
+				</button>
+				<button class="nm" type="button" onclick="normal_2()">
+					<span>Normal lần 2</span>
+				</button>
+				<button class="tu" type="button" onclick="teckurl()">
+					<span>Teckurl</span>
+				</button>
 			</div>
+			<p style='margin:auto'>Nhiệm vụ chưa mở</p>
 			<div class="container">
-				<button class="nm" type="button" onclick="normal_1()"><span>Normal lần
-						1</span></button>
-				<button class="nm" type="button" onclick="normal_2()"><span>Normal lần
-						2</span></button>
-			</div>
-			<div class="container">
-				<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled><span>Memelink lần
-						1</span></button>
-				<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled><span>Memelink lần
-						2</span></button>
-			</div>
-			<div class="container">
-				<button class="tu" type="button" onclick="teckurl()"><span>Teckurl</span></button>
-				<button class="gg" type="button" id='gg' onclick="ggoklink()"><span>Ggoklink</span></button>
-			</div>
-			<div class="container">
-				<button class="bb" type="button" id='bb1' onclick="bb1()" disabled><span>Bitlybox lần 1</span></button>
-				<button class="bb" type="button" id='bb2' onclick='bb2()' disabled><span>Bitlybox lần 2</span></button>
-			</div>
-			<div class="container">
-				<button class="l1m" type="button" id='link1m1' onclick="link1m1()" disabled><span>Link1m lần
-						1</span></button>
-				<button class="l1m" type="button" id='link1m2' onclick='link1m2()' disabled><span>Link1m lần
-						2</span></button>
-			</div>
-			<div class="container">
-				<button class="tra123" type="button" id='tra123' onclick="tra123()" disabled><span>Traffic
-						123</span></button>
-				<button class="trau" type="button" id='trau' onclick='trau()' disabled><span>Traffic
-						User</span></button>
-				<button class="l68" type="button" id='l68' onclick='l68()' disabled><span>Link 68</span></button>
+				<button class="l68" type="button" id='l68' onclick='l68()' disabled>
+					<span>Link 68</span>
+				</button>
+				<button class="l1m" type="button" id='link1m1' onclick="link1m1()" disabled>
+					<span>Link1m lần 1</span>
+				</button>
+				<button class="l1m" type="button" id='link1m2' onclick='link1m2()' disabled>
+					<span>Link1m lần 2</span>
+				</button>
+				<button class="gg" type="button" id='gg' onclick="ggoklink()">
+					<span>Ggoklink</span>
+				</button>
 			</div>
 		</div>
 		<div class="noti" id='banner'>
@@ -213,22 +243,20 @@
 					Mỗi máy <b>CHỈ ĐƯỢC LÀM 1 LẦN</b>, muốn làm tiếp phải đổi máy và ip
 				</li>
 				<li>
-					Không được bật tắt 4g trong lúc làm nhiệm vụ
+					Nghiêm cấm bật tắt 4g, vpn, dns
+				</li>
+				<li>
+					Nhiệm vụ cùng 1 loại làm cách nhau 5p. Nếu không muốn chờ 5p thì làm so le các nhiệm vụ với nhau
+				</li>
+				<li>
+					Teckurl chỉ cần chụp ảnh cuối
 				</li>
 				<li>
 					Check ip: <a href="https://whatismyipaddress.com/vi-vn/index" target='_blank'>Check IP</a> (check
 					cái ipv4 với v6 nhé)
 				</li>
-				<li>
-					Mney, blitly, direct, meme nghiêm cấm bật tắt 4g, vpn, dns (làm cách nhau 5p)
-				</li>
-				<li>
-					Teckurl chỉ cần chụp ảnh cuối
-				</li>
 			</ul>
 			<p>
-				Giới hạn tgian làm nhiệm vụ: Trước 19h mỗi ngày (web1s ngoại lệ trc 21h, normal và teckurl mở 24/24)<br>
-				Memelink làm từ 16h đến 23h <br>
 				Bảng xếp hạng:
 				<a target='_blank'
 					href="https://docs.google.com/spreadsheets/d/1X6qNNhvibLyCD2rRrVBcRB4qEHdnR8MHYzjDpOW9Fqc/edit?usp=sharing">Bảng
