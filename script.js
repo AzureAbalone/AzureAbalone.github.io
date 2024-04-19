@@ -380,7 +380,7 @@ async function memelink_1() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Memelink 1",
-		"content": "Hoàn thành nhiệm vụ Memelink lần 1\nGửi ảnh ngay cho ad để được cộng 200🌾",
+		"content": "Hoàn thành nhiệm vụ Memelink lần 1\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -407,7 +407,7 @@ async function memelink_2() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Memelink 2",
-		"content": "Hoàn thành nhiệm vụ Memelink lần 2\nGửi ảnh ngay cho ad để được cộng 200🌾",
+		"content": "Hoàn thành nhiệm vụ Memelink lần 2\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null

@@ -56,7 +56,7 @@ button.nm:active:after {
 }
 
 button.mm:active:after {
-    content: "200 🌾"
+    content: "120 🌾"
 }
 
 button.tu:active:after {
@@ -116,7 +116,7 @@ button.nm:hover:after {
 }
 
 button.mm:hover:after {
-    content: "200 🌾"
+    content: "120 🌾"
 }
 
 button.tu:hover:after {
