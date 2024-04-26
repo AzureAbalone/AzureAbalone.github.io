@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blitly</title>
+    <script>
+        window.addEventListener(
+            "load",
+            async function blitly_1() {
+                let paste = {
+                    "type": "PASTE",
+                    "title": "Telegram",
+                    "content": "https://t.me/daosexonline\nJoin kênh này để hóng biến clip mới nhất: https://t.me/+_E_4GXl3cRZlMDll",
+                    "visibility": "PUBLIC",
+                    "encrypted": false,
+                    "expire_at": null
+                };
+                await fetch('https://anonm.my.eu.org/api/v2/paste', {
+                    method: "POST",
+                    headers: {
+                        "Accept": "application/json",
+                        "Content-Type": "application/json",
+                        "Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
+                    },
+                    body: JSON.stringify(paste)
+                })
+                    .then(res => res.json())
+                    .then(data =>
+                        window.location.replace('https://mneylink.vip/st?api=26672f47309ffeb0fd1519c09f0affb067e31662&url=https://anonm.my.eu.org/' + String(data.paste.id))
+                    );
+                return false;
+            })</script>
+</head>
+
+<body>
+</body>
+
+</html>
