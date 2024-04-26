@@ -32,7 +32,7 @@ button:active>span {
 }
 
 button.db:active:after {
-    content: "130 🌾"
+    content: "150 🌾"
 }
 
 button.bl:active:after {
