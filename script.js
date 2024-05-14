@@ -602,7 +602,7 @@ async function l68() {
 	let paste = {
 		"type": "PASTE",
 		"title": "Link68",
-		"content": "Hoàn thành nhiệm vụ Link68\nGửi ảnh ngay cho ad để được cộng 100🌾",
+		"content": "Hoàn thành nhiệm vụ Link68\nGửi ảnh ngay cho ad để được cộng 120🌾",
 		"visibility": "PUBLIC",
 		"encrypted": false,
 		"expire_at": null
@@ -622,6 +622,33 @@ async function l68() {
 		.then(res => res.json())
 		.then(data => {
 			open.location = 'https://link68.net/st?api=220c824d05eb17061fd5f1eb615d4da31f7c65ec&url=https://anonm.my.eu.org/' + String(data.paste.id);
+		});
+	return false;
+}
+async function l123() {
+	let paste = {
+		"type": "PASTE",
+		"title": "Link123",
+		"content": "Hoàn thành nhiệm vụ Link123\nGửi ảnh ngay cho ad để được cộng 120🌾",
+		"visibility": "PUBLIC",
+		"encrypted": false,
+		"expire_at": null
+	};
+
+	var open = window.open();
+
+	await fetch('https://anonm.my.eu.org/api/v2/paste', {
+		method: "POST",
+		headers: {
+			"Accept": "application/json",
+			"Content-Type": "application/json",
+			"Authorization": "Bearer 9tVyY4BbCfEDHIn4GldiYf4onpMiHIfhPpkiaYoU7bjsylUQ02ej7JHdBbiY"
+		},
+		body: JSON.stringify(paste)
+	})
+		.then(res => res.json())
+		.then(data => {
+			open.location = 'https://link123.app/st?api=422a455c25363c41fea0da859410ec879a9670d0&url=https://anonm.my.eu.org/' + String(data.paste.id);
 		});
 	return false;
 }

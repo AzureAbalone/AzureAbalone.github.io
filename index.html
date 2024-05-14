@@ -11,18 +11,13 @@
 			function missions() {
 				const currentTime = new Date();
 				const hours = currentTime.getHours();
+				const day = currentTime.getDate();
 				const db1 = document.getElementById("db1");
 				const db2 = document.getElementById("db2");
-				//const mm1 = document.getElementById("mm1");
-				//const mm2 = document.getElementById("mm2");
+				const mm1 = document.getElementById("mm1");
+				const mm2 = document.getElementById("mm2");
 				const bl1 = document.getElementById("bl1");
 				const bl2 = document.getElementById("bl2");
-				// const w1s1 = document.getElementById("w1s1");
-				// const w1s2 = document.getElementById("w1s2");
-				// const w1s3 = document.getElementById("w1s3");
-				// const w1s4 = document.getElementById("w1s4");
-				// const w1s5 = document.getElementById("w1s5");
-				// const w1s6 = document.getElementById("w1s6");
 				const ml = document.getElementById("ml");
 				const md = document.getElementById("md");
 				const bb1 = document.getElementById("bb1");
@@ -32,28 +27,17 @@
 				const l68 = document.getElementById("l68");
 				const tra123 = document.getElementById("tra123");
 				const trau = document.getElementById("trau");
+				const l123 = document.getElementById("l123");
 				if (hours >= 0 && hours <= 20) {
-					// w1s1.disabled = false;
-					// w1s1.style.backgroundColor = "rgb(237, 28, 36)";
-					// w1s1.style.cursor = "pointer";
-					// w1s2.disabled = false;
-					// w1s2.style.backgroundColor = "rgb(237, 28, 36)";
-					// w1s2.style.cursor = "pointer";
-					// w1s3.disabled = false;
-					// w1s3.style.backgroundColor = "rgb(237, 28, 36)";
-					// w1s3.style.cursor = "pointer";
-					// w1s4.disabled = false;
-					// w1s4.style.backgroundColor = "rgb(237, 28, 36)";
-					// w1s4.style.cursor = "pointer";
-					// w1s5.disabled = false;
-					// w1s5.style.backgroundColor = "rgb(237, 28, 36)";
-					// w1s5.style.cursor = "pointer";
-					// w1s6.disabled = false;
-					// w1s6.style.backgroundColor = "rgb(237, 28, 36)";
-					// w1s6.style.cursor = "pointer";
 					tra123.disabled = false;
 					tra123.style.backgroundColor = "#e8584f";
 					tra123.style.cursor = "pointer";
+					l123.disabled = false;
+					l123.style.backgroundColor = "#ff1102";
+					l123.style.cursor = "pointer";
+					trau.disabled = false;
+					trau.style.backgroundColor = "#eb3626";
+					trau.style.cursor = "pointer";
 					// link1m1.disabled = false;
 					// link1m1.style.backgroundColor = "";
 					// link1m1.style.cursor = "pointer";
@@ -64,33 +48,32 @@
 					// l68.style.cursor = "pointer";
 					// l68.style.backgroundColor = "";
 					if (hours >= 0 && hours <= 18) {
-						//db1.disabled = false;
-						//db1.style.backgroundColor = "#25aae1";
-						//db1.style.cursor = "pointer";
-						//bl1.disabled = false;
-						//bl1.style.backgroundColor = "#f5510b";
-						//bl1.style.cursor = "pointer";
-						ml.disabled = false;
-						ml.style.backgroundColor = "rgb(196, 11, 17)";
-						ml.style.cursor = "pointer";
-						//db2.disabled = false;
-						//db2.style.backgroundColor = "#25aae1";
-						//db2.style.cursor = "pointer";
-						//bl2.disabled = false;
-						//bl2.style.backgroundColor = "#f5510b";
-						//bl2.style.cursor = "pointer";
-						md.disabled = false;
-						md.style.backgroundColor = "green";
-						md.style.cursor = "pointer";
-						trau.disabled = false;
-						trau.style.backgroundColor = "#eb3626";
-						trau.style.cursor = "pointer";
-						// mm1.disabled = false;
-						// mm1.style.cursor = "pointer";
-						// mm1.style.backgroundColor = "rgb(237, 28, 36)";
-						// mm2.disabled = false;
-						// mm2.style.cursor = "pointer";
-						// mm2.style.backgroundColor = "rgb(237, 28, 36)";
+						if (day % 3 === 0) {
+							db1.disabled = false;
+							db1.style.backgroundColor = "#25aae1";
+							db1.style.cursor = "pointer";
+							bl1.disabled = false;
+							bl1.style.backgroundColor = "#f5510b";
+							bl1.style.cursor = "pointer";
+							ml.disabled = false;
+							ml.style.backgroundColor = "rgb(196, 11, 17)";
+							ml.style.cursor = "pointer";
+							db2.disabled = false;
+							db2.style.backgroundColor = "#25aae1";
+							db2.style.cursor = "pointer";
+							bl2.disabled = false;
+							bl2.style.backgroundColor = "#f5510b";
+							bl2.style.cursor = "pointer";
+							md.disabled = false;
+							md.style.backgroundColor = "green";
+							md.style.cursor = "pointer";
+							mm1.disabled = false;
+							mm1.style.cursor = "pointer";
+							mm1.style.backgroundColor = "rgb(237, 28, 36)";
+							mm2.disabled = false;
+							mm2.style.cursor = "pointer";
+							mm2.style.backgroundColor = "rgb(237, 28, 36)";
+						} else { }
 						if (hours === 0) {
 							bb1.disabled = false;
 							bb1.style.backgroundColor = "#c700ff";
@@ -145,16 +128,7 @@
 					<span>Bitlybox lần 2</span>
 				</button>
 			</div>
-			<p style='margin:auto'>Nhiệm vụ mở từ 16h-23h</p>
-			<div class="container">
-				<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled>
-					<span>Memelink lần 1</span>
-				</button>
-				<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled>
-					<span>Memelink lần 2</span>
-				</button>
-			</div>
-			<p style='margin:auto'>Nhiệm vụ sẽ đóng lúc 19h</p>
+			<p style='margin:auto'>Nhiệm vụ sẽ đóng lúc 19h - 3 ngày mở 1 lần</p>
 			<div class="container">
 				<button type="button" onclick="directblitly_1()" class="db" id='db1' disabled>
 					<span>Direct-blitly lần 1</span>
@@ -176,44 +150,27 @@
 				<button class="md" type="button" onclick="mneydrec()" id='md' disabled>
 					<span>Mneydrec</span>
 				</button>
-				<button class="trau" type="button" id='trau' onclick='trau()' disabled>
-					<span>Traffic User</span>
+				<button class="mm" type="button" onclick="memelink_1()" id='mm1' disabled>
+					<span>Memelink lần 1</span>
+				</button>
+				<button class="mm" type="button" onclick="memelink_2()" id='mm2' disabled>
+					<span>Memelink lần 2</span>
 				</button>
 			</div>
 			<p style='margin:auto'>Nhiệm vụ sẽ đóng lúc 21h</p>
 			<div class="container">
-				<button type="button" onclick="web1s_1()" class="w1s" id='w1s1' disabled>
-					<span>Web1s lần 1</span>
-				</button>
-				<button type="button" onclick="web1s_2()" class="w1s" id='w1s2' disabled>
-					<span>Web1s lần 2</span>
-				</button>
-				<button type="button" onclick="web1s_3()" class="w1s" id='w1s3' disabled>
-					<span>Web1s lần 3</span>
-				</button>
-				<button type="button" onclick="web1s_4()" class="w1s" id='w1s4' disabled>
-					<span>Web1s lần 4</span>
-				</button>
-			</div>
-			<div class="container">
-				<button type="button" onclick="web1s_5()" class="w1s" id='w1s5' disabled>
-					<span>Web1s lần 5</span>
-				</button>
-				<button type="button" onclick="web1s_6()" class="w1s" id='w1s6' disabled>
-					<span>Web1s lần 6</span>
-				</button>
 				<button class="tra123" type="button" id='tra123' onclick="tra123()" disabled>
 					<span>Traffic 123</span>
+				</button>
+				<button class="trau" type="button" id='trau' onclick='trau()' disabled>
+					<span>Traffic User</span>
+				</button>
+				<button class="l123" type='button' id='l123' onclick='l123()' disabled>
+					<span>Link123</span>
 				</button>
 			</div>
 			<p style='margin:auto'>Nhiệm vụ mở 24/24</p>
 			<div class="container">
-				<button class="nm" type="button" onclick="normal_1()" disbaled>
-					<span>Normal lần 1</span>
-				</button>
-				<button class="nm" type="button" onclick="normal_2()" disbaled>
-					<span>Normal lần 2</span>
-				</button>
 				<button class="tu" type="button" onclick="teckurl()">
 					<span>Teckurl</span>
 				</button>

@@ -39,10 +39,6 @@ button.bl:active:after {
     content: "200 🌾"
 }
 
-button.w1s:active:after {
-    content: "120 🌾"
-}
-
 button.ml:active:after {
     content: "200 🌾"
 }
@@ -87,6 +83,10 @@ button.l68:active:after {
     content: "120 🌾"
 }
 
+button.l123:active:after {
+    content: "120 🌾"
+}
+
 button:hover>span {
     display: none;
 }
@@ -101,10 +101,6 @@ button.bl:hover:after {
 
 button.w1s:hover:after {
     content: "120 🌾"
-}
-
-button.ml:hover:after {
-    content: "200 🌾"
 }
 
 button.md:hover:after {
@@ -144,6 +140,10 @@ button.tra123:hover:after {
 }
 
 button.l68:hover:after {
+    content: "120 🌾"
+}
+
+button.l123:hover:after {
     content: "120 🌾"
 }
 
